@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Analysis II – Lernsystem</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        packages: {'[+]': ['ams']}
+      },
+      options: {
+        enableMenu: false,
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      },
+      startup: {typeset: false}
+    };
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">AII</span>
+      <div>
+        <h1>Analysis II</h1>
+        <p>Persönliches Lernsystem</p>
+      </div>
+    </div>
+    <nav aria-label="Hauptnavigation">
+      <button class="nav-button active" data-view="browse">Lernkarten</button>
+      <button class="nav-button" data-view="tasks">Aufgaben</button>
+      <button class="nav-button" data-view="exam">Prüfung</button>
+      <button class="nav-button" data-view="errors">Fehleranalyse</button>
+      <button class="nav-button" data-view="quiz">Abfrage</button>
+      <button class="nav-button" data-view="flashcards">Karteikarten</button>
+      <button class="nav-button" data-view="proofs">Beweise</button>
+      <button class="nav-button" data-view="progress">Fortschritt</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="browse" class="view active" aria-labelledby="browseHeading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Skriptinhalt</p>
+          <h2 id="browseHeading">Mathematische Lernkarten</h2>
+        </div>
+        <p id="resultCount" class="result-count" aria-live="polite"></p>
+      </div>
+      <div class="toolbar">
+        <label class="field">
+          <span>Suche</span>
+          <input id="search" type="search" placeholder="Begriff, Satznummer oder Abschnitt">
+        </label>
+        <label class="field">
+          <span>Typ</span>
+          <select id="kindFilter">
+            <option value="">Alle Typen</option>
+            <option>Definition</option>
+            <option>Satz</option>
+            <option>Lemma</option>
+            <option>Folgerung</option>
+            <option>Korollar</option>
+            <option>Beispiel</option>
+            <option>Bemerkung</option>
+          </select>
+        </label>
+      </div>
+      <div id="itemList" class="study-list"></div>
+      <p id="emptyState" class="empty-state" hidden>Keine passenden Lernkarten gefunden.</p>
+    </section>
+
+    <section id="tasks" class="view" aria-labelledby="tasksHeading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Altlausuren</p>
+          <h2 id="tasksHeading">Aufgabentrainer</h2>
+        </div>
+        <p id="taskResultCount" class="result-count" aria-live="polite"></p>
+      </div>
+      <div class="exam-toolbar">
+        <label class="field">
+          <span>Suche</span>
+          <input id="taskSearch" type="search" placeholder="Aufgabe, Thema oder Klausur">
+        </label>
+        <label class="field">
+          <span>Thema</span>
+          <select id="taskTopic"><option value="">Alle Themen</option></select>
+        </label>
+        <label class="field">
+          <span>Dozent</span>
+          <select id="taskLecturer"><option value="">Alle Dozenten</option></select>
+        </label>
+        <label class="field">
+          <span>Prüfungsumfang</span>
+          <select id="taskRelevance">
+            <option value="">Alle Einstufungen</option>
+            <option value="confirmed_current">aktuell bestätigt</option>
+            <option value="likely_current">wahrscheinlich aktuell</option>
+            <option value="historically_examined">historisch geprüft</option>
+            <option value="likely_outdated">wahrscheinlich veraltet</option>
+            <option value="unresolved">ungeklärt</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Punkte</span>
+          <select id="taskPoints">
+            <option value="">Alle Punktwerte</option>
+            <option value="known">mit Punktwert</option>
+            <option value="15">mindestens 15 Punkte</option>
+            <option value="20">mindestens 20 Punkte</option>
+          </select>
+        </label>
+      </div>
+      <div id="taskList" class="task-list"></div>
+      <p id="taskEmptyState" class="empty-state" hidden>Keine passenden Altlausuraufgaben gefunden.</p>
+    </section>
+
+    <section id="exam" class="view" aria-labelledby="examHeading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Zeitdruck trainieren</p>
+          <h2 id="examHeading">Prüfungsmodus</h2>
+        </div>
+      </div>
+      <div id="examSetup" class="exam-setup">
+        <label class="field">
+          <span>Klausur auswählen</span>
+          <select id="examSelect"></select>
+        </label>
+        <p id="examSetupMeta" class="supporting-text"></p>
+        <button id="startExam" class="primary-button">Prüfung starten</button>
+      </div>
+      <div id="examWorkspace" class="exam-workspace" hidden>
+        <header class="exam-statusbar">
+          <div>
+            <p id="activeExamMeta" class="metadata-row"></p>
+            <h3 id="activeExamTitle"></h3>
+          </div>
+          <output id="examTimer" class="exam-timer" aria-live="polite">03:00:00</output>
+        </header>
+        <div class="exam-progress-row">
+          <span id="examTaskPosition"></span>
+          <button id="flagExamTask" class="secondary-button">Aufgabe markieren</button>
+        </div>
+        <article id="examTaskBody" class="exam-task-body"></article>
+        <footer class="exam-controls">
+          <button id="previousExamTask" class="secondary-button">Zurück</button>
+          <button id="nextExamTask" class="secondary-button">Weiter</button>
+          <button id="finishExam" class="danger-button">Prüfung abgeben</button>
+        </footer>
+      </div>
+      <div id="examReview" class="exam-review" hidden></div>
+    </section>
+
+    <section id="errors" class="view" aria-labelledby="errorsHeading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Gezielt nacharbeiten</p>
+          <h2 id="errorsHeading">Fehleranalyse</h2>
+        </div>
+        <button id="resetExamProgress" class="secondary-button">Prüfungsdaten zurücksetzen</button>
+      </div>
+      <div id="examMetrics" class="metric-grid"></div>
+      <div class="analysis-layout">
+        <section class="analysis-section" aria-labelledby="dailyQueueHeading">
+          <h3 id="dailyQueueHeading">Heutige Aufgaben</h3>
+          <p class="supporting-text">20 % fällige Wiederholung, 50 % schwache Hochwert-Aufgaben, 30 % gemischte Prüfungspraxis.</p>
+          <div id="dailyQueue" class="queue-list"></div>
+        </section>
+        <section class="analysis-section" aria-labelledby="masteryHeading">
+          <h3 id="masteryHeading">Kompetenzprofil</h3>
+          <div id="masteryList" class="mastery-list"></div>
+        </section>
+      </div>
+      <section class="analysis-section" aria-labelledby="errorLogHeading">
+        <h3 id="errorLogHeading">Fehlerprotokoll</h3>
+        <div id="errorLog" class="error-log"></div>
+      </section>
+    </section>
+
+    <section id="quiz" class="view" aria-labelledby="quizHeading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Aktives Erinnern</p>
+          <h2 id="quizHeading">Abfrage</h2>
+        </div>
+        <button id="nextQuestion" class="secondary-button">Nächste Frage</button>
+      </div>
+      <article id="quizCard" class="focus-panel"></article>
+    </section>
+
+    <section id="flashcards" class="view" aria-labelledby="flashcardHeading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Wiederholung</p>
+          <h2 id="flashcardHeading">Karteikarten</h2>
+        </div>
+        <div class="button-row">
+          <button id="showBack" class="primary-button">Antwort anzeigen</button>
+          <button id="nextFlashcard" class="secondary-button">Nächste Karte</button>
+        </div>
+      </div>
+      <article id="flashcard" class="focus-panel"></article>
+    </section>
+
+    <section id="proofs" class="view" aria-labelledby="proofHeading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Argumentation</p>
+          <h2 id="proofHeading">Beweiskarten</h2>
+        </div>
+      </div>
+      <div id="proofList" class="proof-list"></div>
+    </section>
+
+    <section id="progress" class="view" aria-labelledby="progressHeading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Lernstand</p>
+          <h2 id="progressHeading">Fortschritt</h2>
+        </div>
+        <button id="resetProgress" class="secondary-button">Fortschritt zurücksetzen</button>
+      </div>
+      <div class="focus-panel">
+        <div id="progressList" class="progress-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="detailOverlay" class="overlay" hidden>
+    <article class="detail-panel" role="dialog" aria-modal="true" aria-labelledby="detailTitle">
+      <header class="detail-header">
+        <div>
+          <p id="detailMeta" class="metadata-row"></p>
+          <h2 id="detailTitle"></h2>
+          <div id="detailBadges" class="badge-row"></div>
+        </div>
+        <button id="closeDetail" class="close-button" aria-label="Detailansicht schließen">Schließen</button>
+      </header>
+      <div class="detail-toolbar" aria-label="Darstellungsart">
+        <button id="renderedToggle" class="segmented-button active">Gesetzt</button>
+        <button id="rawToggle" class="segmented-button">Quelle</button>
+      </div>
+      <div id="detailBody"></div>
+    </article>
+  </div>
+
+  <div id="taskOverlay" class="overlay" hidden>
+    <article class="detail-panel task-detail-panel" role="dialog" aria-modal="true" aria-labelledby="taskDetailTitle">
+      <header class="detail-header">
+        <div>
+          <p id="taskDetailMeta" class="metadata-row"></p>
+          <h2 id="taskDetailTitle"></h2>
+          <div id="taskDetailBadges" class="badge-row"></div>
+        </div>
+        <button id="closeTaskDetail" class="close-button" aria-label="Aufgabenansicht schließen">Schließen</button>
+      </header>
+      <div id="taskDetailBody"></div>
+    </article>
+  </div>
+
+  <script defer src="vendor/mathjax-tex-svg.js"></script>
+  <script defer src="formatting.js"></script>
+  <script defer src="data.js"></script>
+  <script defer src="exam-data.js"></script>
+  <script defer src="exam-logic.js"></script>
+  <script defer src="app.js"></script>
+</body>
+</html>

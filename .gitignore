@@ -1,0 +1,25 @@
+# Generated output and temporary audit renders
+dist/
+tmp/
+qa-screenshots/
+
+# Local university source material is intentionally not published
+*.pdf
+local-sources/
+source-extract.txt
+
+# Generated local PDF package (keep the directory contract)
+app/exam-pdfs/*
+!app/exam-pdfs/.gitkeep
+
+# One-time migration backup
+app/data.pre-card-redesign.js
+
+# Runtime caches and local configuration
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.DS_Store
+Thumbs.db
+

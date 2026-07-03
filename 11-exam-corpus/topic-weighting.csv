@@ -1,0 +1,28 @@
+﻿topic;label;exam_count;raw_task_count;unique_task_family_count;total_points_allocated;known_point_task_exposure;average_points_per_known_appearance;most_recent_appearance;appearances_in_three_most_recent_exams;official_solution_count;official_rubric_count;script_coverage;current_exercise_coverage;current_scope_status;source_confidence;weight_score;priority_group
+differenzierbarkeit;Mehrdimensionale Differenzierbarkeit;12;20;10;93.67;149;13.55;SS 2025;3;5;1;covered;not_provided;confirmed_current;0.865;94.94;A
+extrema;Extrema;12;14;8;83.83;116;14.5;SS 2025;3;4;1;covered;not_provided;confirmed_current;0.914;91.38;A
+metrische-raeume;Metrische Räume;6;6;5;46.17;75;15.0;SS 2025;3;3;1;covered;not_provided;confirmed_current;0.8;83.62;A
+kompaktheit;Kompaktheit;8;9;7;37.0;91;13.0;SS 2021;2;2;1;covered;not_provided;confirmed_current;0.933;78.92;A
+topologie;Topologie;6;7;4;37.5;81;13.5;SS 2025;2;2;0;covered;not_provided;confirmed_current;0.914;77.42;A
+implizite-funktionen;Implizite Funktionen;6;6;3;49.0;59;14.75;SS 2021;2;2;1;covered;not_provided;confirmed_current;0.95;74.76;A
+richtungsableitungen;Richtungsableitungen;5;6;2;27.0;54;13.5;SS 2025;2;2;0;covered;not_provided;confirmed_current;0.8;70.53;A
+differentialgleichungen;Differentialgleichungen;9;9;3;100.0;100;20.0;SS 2025;3;3;1;missing;not_provided;unresolved;0.967;69.75;Ungeklärt
+stetigkeit;Stetigkeit;6;7;5;14.67;34;17.0;SS 2021;1;1;1;covered;not_provided;confirmed_current;0.829;69.43;A
+lagrange;Lagrange-Multiplikatoren;8;8;2;22.33;45;15.0;SS 2021;1;1;1;covered;not_provided;confirmed_current;0.963;66.28;A
+gleichmaessige-konvergenz;Gleichmäßige Konvergenz;4;4;4;22.0;37;12.33;SS 2021;1;1;1;covered;not_provided;confirmed_current;0.775;63.93;A
+umkehrsatz;Umkehrsatz;4;5;2;30.0;30;15.0;SS 2021;1;1;1;covered;not_provided;confirmed_current;1.0;62.61;A
+vollstaendigkeit;Vollständigkeit;3;3;2;15.67;40;13.33;SS 2021;1;1;1;covered;not_provided;confirmed_current;0.9;58.84;A
+mannigfaltigkeiten;Untermannigfaltigkeiten;3;3;1;27.5;55;18.33;SS 2025;3;3;1;missing;not_provided;unresolved;1.0;55.5;Ungeklärt
+zusammenhang;Zusammenhang;3;3;3;5.0;10;10.0;SS 2018;0;0;0;covered;not_provided;confirmed_current;0.8;51.73;B
+integralrechnung;Integralrechnung;3;3;3;13.0;18;9.0;SS 2018;0;0;0;covered;not_provided;confirmed_current;0.6;51.53;B
+mehrdimensionale-integrale;Mehrdimensionale Integrale;3;3;1;20.0;20;20.0;SS 2025;1;1;0;missing;not_provided;unresolved;1.0;44.75;Ungeklärt
+reihen;Reihen und Potenzreihen;2;2;2;5.0;10;10.0;SS 2010;0;0;0;covered;not_provided;confirmed_current;0.85;42.52;B
+banach-fixpunkt;Banachscher Fixpunktsatz;1;1;1;0;0;unknown;SS 2015;0;0;0;covered;not_provided;confirmed_current;1.0;42.18;B
+uneigentliche-integrale;Uneigentliche Integrale;2;2;1;0;0;unknown;SS 2013;0;0;0;covered;not_provided;confirmed_current;0.7;41.82;B
+taylor;Taylorentwicklung;2;2;1;0;0;unknown;SS 2010;0;0;0;covered;not_provided;confirmed_current;1.0;41.27;B
+folgen;Folgen;1;1;1;0;0;unknown;SS 2010;0;0;0;covered;not_provided;confirmed_current;1.0;38.77;B
+komplexe-zahlen;Komplexe Zahlen;1;1;1;0;0;unknown;SS 2010;0;0;0;covered;not_provided;confirmed_current;1.0;38.77;B
+kurven;Kurven und Bogenlänge;6;6;1;13.67;23;11.5;SS 2018;0;0;0;missing;not_provided;likely_outdated;0.95;35.34;C
+analysis-1;Analysis-I-Wiederholung;2;2;2;0;0;unknown;SS 2015;0;0;0;covered_supporting;not_provided;likely_outdated;1.0;23.68;C
+unsicher;Unvollständig überlieferte Aufgabe;1;1;1;0;0;unknown;SS 2013;0;0;0;unresolved;not_provided;unresolved;0.4;21.57;Ungeklärt
+dynamische-systeme;Dynamische Systeme;2;2;1;0;0;unknown;SS 2010;0;0;0;missing;not_provided;likely_outdated;1.0;18.77;C

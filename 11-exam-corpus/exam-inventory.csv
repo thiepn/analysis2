@@ -1,0 +1,14 @@
+﻿exam_id;semester;year;professor_or_course_version;duration_minutes;total_points;number_of_tasks;complete_status;official_solutions;grading_rubrics;duplicate_status;current_syllabus_status;metadata_confidence;source_file;source_pages;notes
+ss18;SS 2018;2018;Alexander Lytchak;180;50;5;vollständig;no;no;eigenständig;historically_examined;hoch;Ana2-SS18.pdf;6;"Bildscan; Deckblatt und Aufgaben visuell geprüft."
+geiges03;SS 2003;2003;Hansjörg Geiges;unknown;100;10;wahrscheinlich_vollständig;no;no;eigenständig;likely_outdated;mittel;AnaII_Geiges_03.pdf;2;"Bildscan ohne Deckblatt; 100 Punkte aus den zehn sichtbaren Aufgaben summiert."
+geiges15;SS 2015;2015;Hansjörg Geiges;unknown;unknown;6;wahrscheinlich_vollständig;no;no;eigenständig;likely_outdated;hoch;AnaII_Geiges_15_1.pdf;2;Originalklausur.
+marinescu08;SS 2008;2008;Marinescu / Erat;unknown;40;5;vollständig;no;no;eigenständig;likely_outdated;mittel;AnaII_Marinescu_08.pdf;2;"Textschicht ist bei einzelnen Formeln beschädigt; Original-PDF ist maßgeblich."
+sweers10-mix;SS 2010;2010;Guido Sweers;unknown;unknown;10;wahrscheinlich_vollständig;no;no;teilweise_nahe_variante_von:sweers10;likely_outdated;hoch;AnaII_Sweers_10_3.pdf;2;Prüfungsstoff kombiniert Analysis I und II.
+sweers10;SS 2010;2010;Guido Sweers;unknown;unknown;10;wahrscheinlich_vollständig;no;no;teilweise_nahe_variante_von:sweers10-mix;likely_outdated;hoch;AnaII_Sweers_10_4.pdf;3;Originalklausur.
+sweers14-1;SS 2014;2014;Guido Sweers;unknown;unknown;8;vollständig;no;no;eigenständig;historically_examined;hoch;AnaII_Sweers_14_1.pdf;2;Originalklausur.
+sweers14-2;SS 2014;2014;Guido Sweers;unknown;unknown;8;wahrscheinlich_vollständig;no;no;eigenständig;historically_examined;hoch;AnaII_Sweers_14_2.pdf;8;Aufgabenblätter ohne Deckblatt.
+thorbergsson13;SS 2013;2013;Gudlaugur Thorbergsson;unknown;unknown;8;unvollständig;no;no;eigenständig;unresolved;niedrig;AnaII_Thorbergsson_13.pdf;1;"Nicht offizielles Erinnerungsprotokoll; Quelle vermerkt ausdrücklich 'keine Garantie'."
+ss20;SS 2020;2020;Marinescu / Zielinski;unknown;53;5;vollständig;no;no;eigenständig;historically_examined;hoch;klausur1_ss20a.pdf;2;Originalklausur.
+ss21;SS 2021;2021;Silvia Sabatini;unknown;150;7;vollständig;yes;no;eigenständig;historically_examined;hoch;Klausur_Analysis II_SS21_Sabatini.pdf;22;Originalklausur mit separatem offiziellem Lösungsvorschlag.
+ss21-nach;SS 2021;2021;Silvia Sabatini;unknown;150;7;vollständig;yes;yes;eigenständig;historically_examined;hoch;Nachklausur_Analysis2_SS21_Sabatini.pdf;22;Originalklausur mit offiziellen Lösungen und Bewertungsschlüssel.
+ss25;SS 2025;2025;Silvia Sabatini;unknown;120;7;vollständig;yes;no;eigenständig;likely_current;hoch;Klausur Analysis II-SS25_Loesungen.pdf;11;"Die lokale Aufgabenfassung ist oberhalb der eingebetteten Lösungen beschnitten; das vollständige Original wird erst in der Auswertung verlinkt."

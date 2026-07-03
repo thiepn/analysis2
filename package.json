@@ -1,0 +1,12 @@
+{
+  "name": "analysis2-study-system",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "corpus": "python scripts/build_exam_corpus.py",
+    "test": "node --test app/formatting.test.js app/exam-logic.test.js",
+    "lint": "node --check app/app.js && node --check app/formatting.js && node --check app/exam-logic.js && node --check app/data.js && node --check app/exam-data.js",
+    "typecheck": "node scripts/validate_app_data.mjs && node scripts/validate_exam_data.mjs",
+    "build": "node scripts/build_app.mjs"
+  }
+}

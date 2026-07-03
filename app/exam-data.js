@@ -1,0 +1,6853 @@
+window.EXAM_DATA = {
+  "schemaVersion": 2,
+  "language": "de",
+  "generatedFrom": "local exam corpus (not included)",
+  "exams": [
+    {
+      "id": "ss18",
+      "title": "Klausur Analysis II SS 2018",
+      "semester": "SS 2018",
+      "lecturer": "Alexander Lytchak",
+      "date": "2018-07-21",
+      "durationMinutes": 180,
+      "allowedAids": "keine",
+      "totalPoints": 50,
+      "file": "Ana2-SS18.pdf",
+      "asset": "exam-pdfs/ss18.pdf",
+      "textLayer": false,
+      "sourceConfidence": "hoch",
+      "notes": "Bildscan; Deckblatt und Aufgaben visuell geprüft.",
+      "taskIds": [
+        "ss18-1",
+        "ss18-2",
+        "ss18-3",
+        "ss18-4",
+        "ss18-5"
+      ],
+      "taskCount": 5,
+      "solutionStatuses": [
+        "no_solution"
+      ],
+      "completeStatus": "vollständig",
+      "duplicateStatus": "eigenständig",
+      "currentScopeStatus": "historically_examined"
+    },
+    {
+      "id": "geiges03",
+      "title": "Klausur Analysis II SS 2003",
+      "semester": "SS 2003",
+      "lecturer": "Hansjörg Geiges",
+      "date": null,
+      "durationMinutes": null,
+      "allowedAids": "unbekannt",
+      "totalPoints": 100,
+      "file": "AnaII_Geiges_03.pdf",
+      "asset": "exam-pdfs/geiges03.pdf",
+      "textLayer": false,
+      "sourceConfidence": "mittel",
+      "notes": "Bildscan ohne Deckblatt; 100 Punkte aus den zehn sichtbaren Aufgaben summiert.",
+      "taskIds": [
+        "geiges03-1",
+        "geiges03-2",
+        "geiges03-3",
+        "geiges03-4",
+        "geiges03-5",
+        "geiges03-6",
+        "geiges03-7",
+        "geiges03-8",
+        "geiges03-9",
+        "geiges03-10"
+      ],
+      "taskCount": 10,
+      "solutionStatuses": [
+        "no_solution"
+      ],
+      "completeStatus": "wahrscheinlich_vollständig",
+      "duplicateStatus": "eigenständig",
+      "currentScopeStatus": "likely_outdated"
+    },
+    {
+      "id": "geiges15",
+      "title": "Erstklausur Analysis II SS 2015",
+      "semester": "SS 2015",
+      "lecturer": "Hansjörg Geiges",
+      "date": null,
+      "durationMinutes": null,
+      "allowedAids": "unbekannt",
+      "totalPoints": null,
+      "file": "AnaII_Geiges_15_1.pdf",
+      "asset": "exam-pdfs/geiges15.pdf",
+      "textLayer": true,
+      "sourceConfidence": "hoch",
+      "notes": "Originalklausur.",
+      "taskIds": [
+        "geiges15-1",
+        "geiges15-2",
+        "geiges15-3",
+        "geiges15-4",
+        "geiges15-5",
+        "geiges15-6"
+      ],
+      "taskCount": 6,
+      "solutionStatuses": [
+        "no_solution"
+      ],
+      "completeStatus": "wahrscheinlich_vollständig",
+      "duplicateStatus": "eigenständig",
+      "currentScopeStatus": "likely_outdated"
+    },
+    {
+      "id": "marinescu08",
+      "title": "Klausur Analysis II SS 2008",
+      "semester": "SS 2008",
+      "lecturer": "Marinescu / Erat",
+      "date": null,
+      "durationMinutes": null,
+      "allowedAids": "unbekannt",
+      "totalPoints": 40,
+      "file": "AnaII_Marinescu_08.pdf",
+      "asset": "exam-pdfs/marinescu08.pdf",
+      "textLayer": true,
+      "sourceConfidence": "mittel",
+      "notes": "Textschicht ist bei einzelnen Formeln beschädigt; Original-PDF ist maßgeblich.",
+      "taskIds": [
+        "marinescu08-1",
+        "marinescu08-2",
+        "marinescu08-3",
+        "marinescu08-4",
+        "marinescu08-5"
+      ],
+      "taskCount": 5,
+      "solutionStatuses": [
+        "no_solution"
+      ],
+      "completeStatus": "vollständig",
+      "duplicateStatus": "eigenständig",
+      "currentScopeStatus": "likely_outdated"
+    },
+    {
+      "id": "sweers10-mix",
+      "title": "Klausur Analysis I + II 2010",
+      "semester": "SS 2010",
+      "lecturer": "Guido Sweers",
+      "date": "2010-07-24",
+      "durationMinutes": null,
+      "allowedAids": "unbekannt",
+      "totalPoints": null,
+      "file": "AnaII_Sweers_10_3.pdf",
+      "asset": "exam-pdfs/sweers10-mix.pdf",
+      "textLayer": true,
+      "sourceConfidence": "hoch",
+      "notes": "Prüfungsstoff kombiniert Analysis I und II.",
+      "taskIds": [
+        "sweers10-mix-1",
+        "sweers10-mix-2",
+        "sweers10-mix-3",
+        "sweers10-mix-4",
+        "sweers10-mix-5",
+        "sweers10-mix-6",
+        "sweers10-mix-7",
+        "sweers10-mix-8",
+        "sweers10-mix-9",
+        "sweers10-mix-10"
+      ],
+      "taskCount": 10,
+      "solutionStatuses": [
+        "no_solution"
+      ],
+      "completeStatus": "wahrscheinlich_vollständig",
+      "duplicateStatus": "teilweise_nahe_variante_von:sweers10",
+      "currentScopeStatus": "likely_outdated"
+    },
+    {
+      "id": "sweers10",
+      "title": "Klausur Analysis II 2010",
+      "semester": "SS 2010",
+      "lecturer": "Guido Sweers",
+      "date": "2010-07-24",
+      "durationMinutes": null,
+      "allowedAids": "unbekannt",
+      "totalPoints": null,
+      "file": "AnaII_Sweers_10_4.pdf",
+      "asset": "exam-pdfs/sweers10.pdf",
+      "textLayer": true,
+      "sourceConfidence": "hoch",
+      "notes": "Originalklausur.",
+      "taskIds": [
+        "sweers10-1",
+        "sweers10-2",
+        "sweers10-3",
+        "sweers10-4",
+        "sweers10-5",
+        "sweers10-6",
+        "sweers10-7",
+        "sweers10-8",
+        "sweers10-9",
+        "sweers10-10"
+      ],
+      "taskCount": 10,
+      "solutionStatuses": [
+        "no_solution"
+      ],
+      "completeStatus": "wahrscheinlich_vollständig",
+      "duplicateStatus": "teilweise_nahe_variante_von:sweers10-mix",
+      "currentScopeStatus": "likely_outdated"
+    },
+    {
+      "id": "sweers14-1",
+      "title": "Klausur Analysis II 2014",
+      "semester": "SS 2014",
+      "lecturer": "Guido Sweers",
+      "date": "2014-07-19",
+      "durationMinutes": null,
+      "allowedAids": "unbekannt",
+      "totalPoints": null,
+      "file": "AnaII_Sweers_14_1.pdf",
+      "asset": "exam-pdfs/sweers14-1.pdf",
+      "textLayer": true,
+      "sourceConfidence": "hoch",
+      "notes": "Originalklausur.",
+      "taskIds": [
+        "sweers14-1-1",
+        "sweers14-1-2",
+        "sweers14-1-3",
+        "sweers14-1-4",
+        "sweers14-1-5",
+        "sweers14-1-6",
+        "sweers14-1-7",
+        "sweers14-1-8"
+      ],
+      "taskCount": 8,
+      "solutionStatuses": [
+        "no_solution"
+      ],
+      "completeStatus": "vollständig",
+      "duplicateStatus": "eigenständig",
+      "currentScopeStatus": "historically_examined"
+    },
+    {
+      "id": "sweers14-2",
+      "title": "Weitere Klausur Analysis II 2014",
+      "semester": "SS 2014",
+      "lecturer": "Guido Sweers",
+      "date": null,
+      "durationMinutes": null,
+      "allowedAids": "unbekannt",
+      "totalPoints": null,
+      "file": "AnaII_Sweers_14_2.pdf",
+      "asset": "exam-pdfs/sweers14-2.pdf",
+      "textLayer": true,
+      "sourceConfidence": "hoch",
+      "notes": "Aufgabenblätter ohne Deckblatt.",
+      "taskIds": [
+        "sweers14-2-1",
+        "sweers14-2-2",
+        "sweers14-2-3",
+        "sweers14-2-4",
+        "sweers14-2-5",
+        "sweers14-2-6",
+        "sweers14-2-7",
+        "sweers14-2-8"
+      ],
+      "taskCount": 8,
+      "solutionStatuses": [
+        "no_solution"
+      ],
+      "completeStatus": "wahrscheinlich_vollständig",
+      "duplicateStatus": "eigenständig",
+      "currentScopeStatus": "historically_examined"
+    },
+    {
+      "id": "thorbergsson13",
+      "title": "Erinnerungsprotokoll Analysis II SS 2013",
+      "semester": "SS 2013",
+      "lecturer": "Gudlaugur Thorbergsson",
+      "date": null,
+      "durationMinutes": null,
+      "allowedAids": "unbekannt",
+      "totalPoints": null,
+      "file": "AnaII_Thorbergsson_13.pdf",
+      "asset": "exam-pdfs/thorbergsson13.pdf",
+      "textLayer": true,
+      "sourceConfidence": "niedrig",
+      "notes": "Nicht offizielles Erinnerungsprotokoll; Quelle vermerkt ausdrücklich 'keine Garantie'.",
+      "taskIds": [
+        "thorbergsson13-1",
+        "thorbergsson13-2",
+        "thorbergsson13-3",
+        "thorbergsson13-4",
+        "thorbergsson13-5",
+        "thorbergsson13-6",
+        "thorbergsson13-7",
+        "thorbergsson13-8"
+      ],
+      "taskCount": 8,
+      "solutionStatuses": [
+        "no_solution"
+      ],
+      "completeStatus": "unvollständig",
+      "duplicateStatus": "eigenständig",
+      "currentScopeStatus": "unresolved"
+    },
+    {
+      "id": "ss20",
+      "title": "Klausur Analysis II SS 2020",
+      "semester": "SS 2020",
+      "lecturer": "Marinescu / Zielinski",
+      "date": null,
+      "durationMinutes": null,
+      "allowedAids": "unbekannt",
+      "totalPoints": 53,
+      "file": "klausur1_ss20a.pdf",
+      "asset": "exam-pdfs/ss20.pdf",
+      "textLayer": true,
+      "sourceConfidence": "hoch",
+      "notes": "Originalklausur.",
+      "taskIds": [
+        "ss20-1",
+        "ss20-2",
+        "ss20-3",
+        "ss20-4",
+        "ss20-5"
+      ],
+      "taskCount": 5,
+      "solutionStatuses": [
+        "no_solution"
+      ],
+      "completeStatus": "vollständig",
+      "duplicateStatus": "eigenständig",
+      "currentScopeStatus": "historically_examined"
+    },
+    {
+      "id": "ss21",
+      "title": "Klausur Analysis II SS 2021",
+      "semester": "SS 2021",
+      "lecturer": "Silvia Sabatini",
+      "date": "2021-07-24",
+      "durationMinutes": null,
+      "allowedAids": "keine",
+      "totalPoints": 150,
+      "file": "Klausur_Analysis II_SS21_Sabatini.pdf",
+      "asset": "exam-pdfs/ss21.pdf",
+      "textLayer": true,
+      "sourceConfidence": "hoch",
+      "notes": "Originalklausur mit separatem offiziellem Lösungsvorschlag.",
+      "taskIds": [
+        "ss21-1",
+        "ss21-2",
+        "ss21-3",
+        "ss21-4",
+        "ss21-5",
+        "ss21-6",
+        "ss21-7"
+      ],
+      "taskCount": 7,
+      "solutionStatuses": [
+        "official_solution"
+      ],
+      "completeStatus": "vollständig",
+      "duplicateStatus": "eigenständig",
+      "currentScopeStatus": "historically_examined"
+    },
+    {
+      "id": "ss21-nach",
+      "title": "Nachklausur Analysis II SS 2021",
+      "semester": "SS 2021",
+      "lecturer": "Silvia Sabatini",
+      "date": "2021-09-18",
+      "durationMinutes": null,
+      "allowedAids": "keine",
+      "totalPoints": 150,
+      "file": "Nachklausur_Analysis2_SS21_Sabatini.pdf",
+      "asset": "exam-pdfs/ss21-nach.pdf",
+      "textLayer": true,
+      "sourceConfidence": "hoch",
+      "notes": "Originalklausur mit offiziellen Lösungen und Bewertungsschlüssel.",
+      "taskIds": [
+        "ss21-nach-1",
+        "ss21-nach-2",
+        "ss21-nach-3",
+        "ss21-nach-4",
+        "ss21-nach-5",
+        "ss21-nach-6",
+        "ss21-nach-7"
+      ],
+      "taskCount": 7,
+      "solutionStatuses": [
+        "official_rubric"
+      ],
+      "completeStatus": "vollständig",
+      "duplicateStatus": "eigenständig",
+      "currentScopeStatus": "historically_examined"
+    },
+    {
+      "id": "ss25",
+      "title": "Klausur Analysis II SS 2025",
+      "semester": "SS 2025",
+      "lecturer": "Silvia Sabatini",
+      "date": "2025-07-26",
+      "durationMinutes": null,
+      "allowedAids": "keine",
+      "totalPoints": 120,
+      "file": "Klausur Analysis II-SS25_Loesungen.pdf",
+      "asset": "exam-pdfs/ss25-aufgaben.pdf",
+      "textLayer": true,
+      "sourceConfidence": "hoch",
+      "notes": "Die lokale Aufgabenfassung ist oberhalb der eingebetteten Lösungen beschnitten; das vollständige Original wird erst in der Auswertung verlinkt.",
+      "taskIds": [
+        "ss25-1",
+        "ss25-2",
+        "ss25-3",
+        "ss25-4",
+        "ss25-5",
+        "ss25-6",
+        "ss25-7"
+      ],
+      "taskCount": 7,
+      "solutionStatuses": [
+        "official_solution"
+      ],
+      "completeStatus": "vollständig",
+      "duplicateStatus": "eigenständig",
+      "currentScopeStatus": "likely_current"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ss18-1",
+      "examId": "ss18",
+      "number": 1,
+      "subtask": "alle",
+      "title": "Sechs Grunddefinitionen präzise formulieren",
+      "prompt": "Sechs Grunddefinitionen präzise formulieren. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": 12,
+      "estimatedMinutes": 43,
+      "topics": [
+        "differenzierbarkeit",
+        "kompaktheit",
+        "topologie",
+        "vollstaendigkeit"
+      ],
+      "topicLabels": [
+        "Mehrdimensionale Differenzierbarkeit",
+        "Kompaktheit",
+        "Topologie",
+        "Vollständigkeit"
+      ],
+      "topicPrimary": "differenzierbarkeit",
+      "topicSecondary": [
+        "kompaktheit",
+        "topologie",
+        "vollstaendigkeit"
+      ],
+      "techniques": [
+        "definition"
+      ],
+      "theoryIds": [
+        "8.1.1",
+        "7.5.1",
+        "7.3.1",
+        "7.2.9"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-differentiability-definition",
+      "familyRelation": "theorem_variant",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Unterscheide partielle, Richtungs- und totale Differenzierbarkeit.",
+        "Für totale Differenzierbarkeit muss der Restterm nach Division durch die Norm gegen null gehen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/ss18.pdf",
+        "file": "Ana2-SS18.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "ss18-2",
+      "examId": "ss18",
+      "number": 2,
+      "subtask": "alle",
+      "title": "Extremwertkriterium und Bolzano-Weierstraß angeben",
+      "prompt": "Extremwertkriterium und Bolzano-Weierstraß angeben. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 3,
+      "pageEnd": 3,
+      "points": 4,
+      "estimatedMinutes": 14,
+      "topics": [
+        "extrema",
+        "kompaktheit"
+      ],
+      "topicLabels": [
+        "Extrema",
+        "Kompaktheit"
+      ],
+      "topicPrimary": "extrema",
+      "topicSecondary": [
+        "kompaktheit"
+      ],
+      "techniques": [
+        "satzwiedergabe"
+      ],
+      "theoryIds": [
+        "8.6.3",
+        "7.5.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-ss18-2",
+      "familyRelation": "unique",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Bestimme zuerst alle inneren kritischen Punkte und vergiss den Rand nicht.",
+        "Klassifiziere mit Hesse-Matrix, geeigneten Kurven oder Lagrange-Bedingungen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/ss18.pdf",
+        "file": "Ana2-SS18.pdf",
+        "page": 3,
+        "originalPage": 3
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.14
+    },
+    {
+      "id": "ss18-3",
+      "examId": "ss18",
+      "number": 3,
+      "subtask": "alle",
+      "title": "Stetige Bilder zusammenhängender Räume und Hauptsatz beweisen",
+      "prompt": "Stetige Bilder zusammenhängender Räume und Hauptsatz beweisen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 4,
+      "pageEnd": 4,
+      "points": 10,
+      "estimatedMinutes": 36,
+      "topics": [
+        "zusammenhang",
+        "integralrechnung"
+      ],
+      "topicLabels": [
+        "Zusammenhang",
+        "Integralrechnung"
+      ],
+      "topicPrimary": "zusammenhang",
+      "topicSecondary": [
+        "integralrechnung"
+      ],
+      "techniques": [
+        "beweis"
+      ],
+      "theoryIds": [
+        "7.6.2",
+        "6.4.2"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-ss18-3",
+      "familyRelation": "unique",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere zuerst Voraussetzungen und Ziel der Aufgabe.",
+        "Zerlege die Aufgabe in einen Satz- oder Definitionsschritt und einen Rechenschritt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/ss18.pdf",
+        "file": "Ana2-SS18.pdf",
+        "page": 4,
+        "originalPage": 4
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 5.17
+    },
+    {
+      "id": "ss18-4",
+      "examId": "ss18",
+      "number": 4,
+      "subtask": "alle",
+      "title": "Zykloidenlänge, partielle Differenzierbarkeit und stetiges Funktional",
+      "prompt": "Zykloidenlänge, partielle Differenzierbarkeit und stetiges Funktional. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 5,
+      "pageEnd": 5,
+      "points": 14,
+      "estimatedMinutes": 50,
+      "topics": [
+        "kurven",
+        "differenzierbarkeit",
+        "stetigkeit"
+      ],
+      "topicLabels": [
+        "Kurven und Bogenlänge",
+        "Mehrdimensionale Differenzierbarkeit",
+        "Stetigkeit"
+      ],
+      "topicPrimary": "kurven",
+      "topicSecondary": [
+        "differenzierbarkeit",
+        "stetigkeit"
+      ],
+      "techniques": [
+        "berechnung",
+        "beweis",
+        "gegenbeispiel"
+      ],
+      "theoryIds": [
+        "8.1.1",
+        "7.4.1"
+      ],
+      "currentRelevance": "mittel",
+      "currentScopeStatus": "likely_outdated",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-curve-length",
+      "familyRelation": "computational_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Leite die Parametrisierung ab.",
+        "Die Bogenlänge ist das Integral der Geschwindigkeit $\\|\\gamma'(t)\\|$."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/ss18.pdf",
+        "file": "Ana2-SS18.pdf",
+        "page": 5,
+        "originalPage": 5
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "ss18-5",
+      "examId": "ss18",
+      "number": 5,
+      "subtask": "alle",
+      "title": "Lokale Matrixquadratwurzel mit dem Umkehrsatz beweisen",
+      "prompt": "Lokale Matrixquadratwurzel mit dem Umkehrsatz beweisen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 6,
+      "pageEnd": 6,
+      "points": 10,
+      "estimatedMinutes": 36,
+      "topics": [
+        "umkehrsatz"
+      ],
+      "topicLabels": [
+        "Umkehrsatz"
+      ],
+      "topicPrimary": "umkehrsatz",
+      "topicSecondary": [],
+      "techniques": [
+        "beweis",
+        "satzanwendung"
+      ],
+      "theoryIds": [
+        "9.2.5"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-inverse-local-invertibility",
+      "familyRelation": "theorem_variant",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Berechne die Jacobi-Matrix und ihre Determinante.",
+        "Der Satz liefert lokale, nicht automatisch globale Invertierbarkeit."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/ss18.pdf",
+        "file": "Ana2-SS18.pdf",
+        "page": 6,
+        "originalPage": 6
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 6.26
+    },
+    {
+      "id": "geiges03-1",
+      "examId": "geiges03",
+      "number": 1,
+      "subtask": "alle",
+      "title": "Offen, abgeschlossen, kompakt und folgenkompakt; Mengen klassifizieren",
+      "prompt": "Offen, abgeschlossen, kompakt und folgenkompakt; Mengen klassifizieren. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": 10,
+      "estimatedMinutes": 12,
+      "topics": [
+        "topologie",
+        "kompaktheit"
+      ],
+      "topicLabels": [
+        "Topologie",
+        "Kompaktheit"
+      ],
+      "topicPrimary": "topologie",
+      "topicSecondary": [
+        "kompaktheit"
+      ],
+      "techniques": [
+        "definition",
+        "klassifikation"
+      ],
+      "theoryIds": [
+        "7.3.1",
+        "7.5.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-topology-definition-classification",
+      "familyRelation": "theorem_variant",
+      "difficulty": "mittel",
+      "sourceConfidence": "mittel",
+      "hints": [
+        "Arbeite direkt mit offenen Umgebungen oder Kugeln.",
+        "Für Gegenbeispiele sind indiskrete Topologien und Folgen oft besonders effizient."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/geiges03.pdf",
+        "file": "AnaII_Geiges_03.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 7.89
+    },
+    {
+      "id": "geiges03-2",
+      "examId": "geiges03",
+      "number": 2,
+      "subtask": "alle",
+      "title": "Neilsche Parabel parametrisieren und nach Bogenlänge umparametrisieren",
+      "prompt": "Neilsche Parabel parametrisieren und nach Bogenlänge umparametrisieren. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": 9,
+      "estimatedMinutes": 11,
+      "topics": [
+        "kurven"
+      ],
+      "topicLabels": [
+        "Kurven und Bogenlänge"
+      ],
+      "topicPrimary": "kurven",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "niedrig",
+      "currentScopeStatus": "likely_outdated",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-curve-length",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "mittel",
+      "hints": [
+        "Leite die Parametrisierung ab.",
+        "Die Bogenlänge ist das Integral der Geschwindigkeit $\\|\\gamma'(t)\\|$."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/geiges03.pdf",
+        "file": "AnaII_Geiges_03.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 3.53
+    },
+    {
+      "id": "geiges03-3",
+      "examId": "geiges03",
+      "number": 3,
+      "subtask": "alle",
+      "title": "Stationäre Punkte einer Polynomfunktion bestimmen und klassifizieren",
+      "prompt": "Stationäre Punkte einer Polynomfunktion bestimmen und klassifizieren. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": 8,
+      "estimatedMinutes": 10,
+      "topics": [
+        "extrema"
+      ],
+      "topicLabels": [
+        "Extrema"
+      ],
+      "topicPrimary": "extrema",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [
+        "8.6.3"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-critical-point-classification",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "mittel",
+      "hints": [
+        "Bestimme zuerst alle inneren kritischen Punkte und vergiss den Rand nicht.",
+        "Klassifiziere mit Hesse-Matrix, geeigneten Kurven oder Lagrange-Bedingungen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/geiges03.pdf",
+        "file": "AnaII_Geiges_03.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.14
+    },
+    {
+      "id": "geiges03-4",
+      "examId": "geiges03",
+      "number": 4,
+      "subtask": "alle",
+      "title": "Sternmetrik beweisen und ihre offenen Mengen bestimmen",
+      "prompt": "Sternmetrik beweisen und ihre offenen Mengen bestimmen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": 7,
+      "estimatedMinutes": 9,
+      "topics": [
+        "metrische-raeume",
+        "topologie"
+      ],
+      "topicLabels": [
+        "Metrische Räume",
+        "Topologie"
+      ],
+      "topicPrimary": "metrische-raeume",
+      "topicSecondary": [
+        "topologie"
+      ],
+      "techniques": [
+        "beweis"
+      ],
+      "theoryIds": [
+        "7.2.1",
+        "7.3.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-geiges03-4",
+      "familyRelation": "unique",
+      "difficulty": "hoch",
+      "sourceConfidence": "mittel",
+      "hints": [
+        "Schreibe zuerst die drei Metrikaxiome aus.",
+        "Prüfe positive Definitheit, Symmetrie und Dreiecksungleichung getrennt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/geiges03.pdf",
+        "file": "AnaII_Geiges_03.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 8.36
+    },
+    {
+      "id": "geiges03-5",
+      "examId": "geiges03",
+      "number": 5,
+      "subtask": "alle",
+      "title": "Parameterabhängige Extrema einer Exponential-Quadratik untersuchen",
+      "prompt": "Parameterabhängige Extrema einer Exponential-Quadratik untersuchen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": 12,
+      "estimatedMinutes": 15,
+      "topics": [
+        "extrema"
+      ],
+      "topicLabels": [
+        "Extrema"
+      ],
+      "topicPrimary": "extrema",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung",
+        "beweis"
+      ],
+      "theoryIds": [
+        "8.6.3"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-geiges03-5",
+      "familyRelation": "unique",
+      "difficulty": "hoch",
+      "sourceConfidence": "mittel",
+      "hints": [
+        "Bestimme zuerst alle inneren kritischen Punkte und vergiss den Rand nicht.",
+        "Klassifiziere mit Hesse-Matrix, geeigneten Kurven oder Lagrange-Bedingungen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/geiges03.pdf",
+        "file": "AnaII_Geiges_03.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.14
+    },
+    {
+      "id": "geiges03-6",
+      "examId": "geiges03",
+      "number": 6,
+      "subtask": "alle",
+      "title": "Richtungsableitung und totale Differenzierbarkeit definieren",
+      "prompt": "Richtungsableitung und totale Differenzierbarkeit definieren. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": 9,
+      "estimatedMinutes": 11,
+      "topics": [
+        "richtungsableitungen",
+        "differenzierbarkeit"
+      ],
+      "topicLabels": [
+        "Richtungsableitungen",
+        "Mehrdimensionale Differenzierbarkeit"
+      ],
+      "topicPrimary": "richtungsableitungen",
+      "topicSecondary": [
+        "differenzierbarkeit"
+      ],
+      "techniques": [
+        "definition"
+      ],
+      "theoryIds": [
+        "8.2",
+        "8.1.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-differentiability-definition",
+      "familyRelation": "theorem_variant",
+      "difficulty": "mittel",
+      "sourceConfidence": "mittel",
+      "hints": [
+        "Setze die Gerade $h\\mapsto hv$ in die Funktion ein.",
+        "Existenz aller Richtungsableitungen allein beweist noch keine Differenzierbarkeit."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/geiges03.pdf",
+        "file": "AnaII_Geiges_03.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "geiges03-7",
+      "examId": "geiges03",
+      "number": 7,
+      "subtask": "alle",
+      "title": "Alle Richtungsableitungen vorhanden, aber keine totale Differenzierbarkeit",
+      "prompt": "Alle Richtungsableitungen vorhanden, aber keine totale Differenzierbarkeit. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": 10,
+      "estimatedMinutes": 12,
+      "topics": [
+        "richtungsableitungen",
+        "differenzierbarkeit"
+      ],
+      "topicLabels": [
+        "Richtungsableitungen",
+        "Mehrdimensionale Differenzierbarkeit"
+      ],
+      "topicPrimary": "richtungsableitungen",
+      "topicSecondary": [
+        "differenzierbarkeit"
+      ],
+      "techniques": [
+        "berechnung",
+        "gegenbeispiel"
+      ],
+      "theoryIds": [
+        "8.2",
+        "8.1.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-directional-not-total",
+      "familyRelation": "proof_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "mittel",
+      "hints": [
+        "Setze die Gerade $h\\mapsto hv$ in die Funktion ein.",
+        "Existenz aller Richtungsableitungen allein beweist noch keine Differenzierbarkeit."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/geiges03.pdf",
+        "file": "AnaII_Geiges_03.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "geiges03-8",
+      "examId": "geiges03",
+      "number": 8,
+      "subtask": "alle",
+      "title": "Implizite Funktionen nachweisen und erste sowie zweite Ableitungen berechnen",
+      "prompt": "Implizite Funktionen nachweisen und erste sowie zweite Ableitungen berechnen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": 9,
+      "estimatedMinutes": 11,
+      "topics": [
+        "implizite-funktionen"
+      ],
+      "topicLabels": [
+        "Implizite Funktionen"
+      ],
+      "topicPrimary": "implizite-funktionen",
+      "topicSecondary": [],
+      "techniques": [
+        "satzanwendung",
+        "berechnung"
+      ],
+      "theoryIds": [
+        "9.3.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-implicit-function-derivatives",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "mittel",
+      "hints": [
+        "Trenne freie und aufzulösende Variablen.",
+        "Prüfe die relevante partielle Jacobi-Matrix und differenziere danach die Identität."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/geiges03.pdf",
+        "file": "AnaII_Geiges_03.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 7.48
+    },
+    {
+      "id": "geiges03-9",
+      "examId": "geiges03",
+      "number": 9,
+      "subtask": "alle",
+      "title": "Flächenmaximales Dreieck bei festem Umfang bestimmen",
+      "prompt": "Flächenmaximales Dreieck bei festem Umfang bestimmen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": 8,
+      "estimatedMinutes": 10,
+      "topics": [
+        "lagrange"
+      ],
+      "topicLabels": [
+        "Lagrange-Multiplikatoren"
+      ],
+      "topicPrimary": "lagrange",
+      "topicSecondary": [],
+      "techniques": [
+        "beweis",
+        "berechnung"
+      ],
+      "theoryIds": [
+        "9.4.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-lagrange-constrained-extrema",
+      "familyRelation": "computational_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "mittel",
+      "hints": [
+        "Formuliere Nebenbedingung und Regularitätsannahme explizit.",
+        "Löse $\\nabla f=\\lambda\\nabla g$ und vergleiche anschließend alle Kandidaten."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/geiges03.pdf",
+        "file": "AnaII_Geiges_03.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 6.63
+    },
+    {
+      "id": "geiges03-10",
+      "examId": "geiges03",
+      "number": 10,
+      "subtask": "alle",
+      "title": "Existenz, Variation der Konstanten und lineare DGL zweiter Ordnung",
+      "prompt": "Existenz, Variation der Konstanten und lineare DGL zweiter Ordnung. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": 18,
+      "estimatedMinutes": 22,
+      "topics": [
+        "differentialgleichungen"
+      ],
+      "topicLabels": [
+        "Differentialgleichungen"
+      ],
+      "topicPrimary": "differentialgleichungen",
+      "topicSecondary": [],
+      "techniques": [
+        "beweis",
+        "berechnung"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "ausserhalb",
+      "currentScopeStatus": "unresolved",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-dgl-existence-uniqueness",
+      "familyRelation": "proof_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "mittel",
+      "hints": [
+        "Bestimme zuerst den DGL-Typ und das maximale Existenzintervall.",
+        "Trennung, Variation der Konstanten oder charakteristische Gleichung liefern den Rechenweg."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/geiges03.pdf",
+        "file": "AnaII_Geiges_03.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aktueller Prüfungsumfang ist wegen eines Konflikts zwischen Skript und Klausurevidenz ungeklärt.",
+      "priorityScore": 6.97
+    },
+    {
+      "id": "geiges15-1",
+      "examId": "geiges15",
+      "number": 1,
+      "subtask": "alle",
+      "title": "Zykloide modellieren und Bogenlänge berechnen",
+      "prompt": "Zykloide modellieren und Bogenlänge berechnen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "kurven"
+      ],
+      "topicLabels": [
+        "Kurven und Bogenlänge"
+      ],
+      "topicPrimary": "kurven",
+      "topicSecondary": [],
+      "techniques": [
+        "modellierung",
+        "berechnung"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "niedrig",
+      "currentScopeStatus": "likely_outdated",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-curve-length",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Leite die Parametrisierung ab.",
+        "Die Bogenlänge ist das Integral der Geschwindigkeit $\\|\\gamma'(t)\\|$."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/geiges15.pdf",
+        "file": "AnaII_Geiges_15_1.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 3.53
+    },
+    {
+      "id": "geiges15-2",
+      "examId": "geiges15",
+      "number": 2,
+      "subtask": "alle",
+      "title": "Differenzierbarkeit definieren und Differential einer quadratischen Form bestimmen",
+      "prompt": "Differenzierbarkeit definieren und Differential einer quadratischen Form bestimmen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "differenzierbarkeit"
+      ],
+      "topicLabels": [
+        "Mehrdimensionale Differenzierbarkeit"
+      ],
+      "topicPrimary": "differenzierbarkeit",
+      "topicSecondary": [],
+      "techniques": [
+        "definition",
+        "beweis"
+      ],
+      "theoryIds": [
+        "8.1.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-differentiability-definition",
+      "familyRelation": "theorem_variant",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Unterscheide partielle, Richtungs- und totale Differenzierbarkeit.",
+        "Für totale Differenzierbarkeit muss der Restterm nach Division durch die Norm gegen null gehen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/geiges15.pdf",
+        "file": "AnaII_Geiges_15_1.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "geiges15-3",
+      "examId": "geiges15",
+      "number": 3,
+      "subtask": "alle",
+      "title": "Banachschen Fixpunktsatz formulieren und beweisen",
+      "prompt": "Banachschen Fixpunktsatz formulieren und beweisen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "banach-fixpunkt"
+      ],
+      "topicLabels": [
+        "Banachscher Fixpunktsatz"
+      ],
+      "topicPrimary": "banach-fixpunkt",
+      "topicSecondary": [],
+      "techniques": [
+        "satzwiedergabe",
+        "beweis"
+      ],
+      "theoryIds": [
+        "9.1.2"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-geiges15-3",
+      "familyRelation": "unique",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Nenne Vollständigkeit und Kontraktionskonstante.",
+        "Zeige Cauchy-Eigenschaft der Iteration, dann Existenz und Eindeutigkeit."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/geiges15.pdf",
+        "file": "AnaII_Geiges_15_1.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 4.22
+    },
+    {
+      "id": "geiges15-4",
+      "examId": "geiges15",
+      "number": 4,
+      "subtask": "alle",
+      "title": "Extrema von $xy$ auf der Einheitskreisscheibe",
+      "prompt": "Extrema von $xy$ auf der Einheitskreisscheibe. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "extrema",
+        "lagrange"
+      ],
+      "topicLabels": [
+        "Extrema",
+        "Lagrange-Multiplikatoren"
+      ],
+      "topicPrimary": "extrema",
+      "topicSecondary": [
+        "lagrange"
+      ],
+      "techniques": [
+        "berechnung",
+        "skizze"
+      ],
+      "theoryIds": [
+        "8.6.3",
+        "9.4.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-lagrange-constrained-extrema",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Bestimme zuerst alle inneren kritischen Punkte und vergiss den Rand nicht.",
+        "Klassifiziere mit Hesse-Matrix, geeigneten Kurven oder Lagrange-Bedingungen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/geiges15.pdf",
+        "file": "AnaII_Geiges_15_1.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.14
+    },
+    {
+      "id": "geiges15-5",
+      "examId": "geiges15",
+      "number": 5,
+      "subtask": "alle",
+      "title": "Drei Variablen lokal als Funktionen zweier Parameter auflösen",
+      "prompt": "Drei Variablen lokal als Funktionen zweier Parameter auflösen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "implizite-funktionen"
+      ],
+      "topicLabels": [
+        "Implizite Funktionen"
+      ],
+      "topicPrimary": "implizite-funktionen",
+      "topicSecondary": [],
+      "techniques": [
+        "satzanwendung",
+        "berechnung"
+      ],
+      "theoryIds": [
+        "9.3.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-implicit-function-derivatives",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Trenne freie und aufzulösende Variablen.",
+        "Prüfe die relevante partielle Jacobi-Matrix und differenziere danach die Identität."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/geiges15.pdf",
+        "file": "AnaII_Geiges_15_1.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 7.48
+    },
+    {
+      "id": "geiges15-6",
+      "examId": "geiges15",
+      "number": 6,
+      "subtask": "alle",
+      "title": "Lineare DGL zweiter Ordnung und trigonometrische Identität",
+      "prompt": "Lineare DGL zweiter Ordnung und trigonometrische Identität. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "differentialgleichungen",
+        "analysis-1"
+      ],
+      "topicLabels": [
+        "Differentialgleichungen",
+        "Analysis-I-Wiederholung"
+      ],
+      "topicPrimary": "differentialgleichungen",
+      "topicSecondary": [
+        "analysis-1"
+      ],
+      "techniques": [
+        "berechnung",
+        "beweis"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "ausserhalb",
+      "currentScopeStatus": "unresolved",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-geiges15-6",
+      "familyRelation": "unique",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Bestimme zuerst den DGL-Typ und das maximale Existenzintervall.",
+        "Trennung, Variation der Konstanten oder charakteristische Gleichung liefern den Rechenweg."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/geiges15.pdf",
+        "file": "AnaII_Geiges_15_1.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aktueller Prüfungsumfang ist wegen eines Konflikts zwischen Skript und Klausurevidenz ungeklärt.",
+      "priorityScore": 6.97
+    },
+    {
+      "id": "marinescu08-1",
+      "examId": "marinescu08",
+      "number": 1,
+      "subtask": "alle",
+      "title": "Zwei Integrale berechnen; Formeln nur im Original zuverlässig lesbar",
+      "prompt": "Zwei Integrale berechnen; Formeln nur im Original zuverlässig lesbar. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": 8,
+      "estimatedMinutes": 10,
+      "topics": [
+        "integralrechnung"
+      ],
+      "topicLabels": [
+        "Integralrechnung"
+      ],
+      "topicPrimary": "integralrechnung",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [
+        "6.4.2"
+      ],
+      "currentRelevance": "mittel",
+      "currentScopeStatus": "likely_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-marinescu08-1",
+      "familyRelation": "unique",
+      "difficulty": "mittel",
+      "sourceConfidence": "niedrig",
+      "hints": [
+        "Bestimme zuerst Gebiet und Integrationsreihenfolge.",
+        "Prüfe Existenz und führe Substitution oder Koordinatenwechsel mit Jacobi-Faktor aus."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/marinescu08.pdf",
+        "file": "AnaII_Marinescu_08.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aufgabentext oder Formel muss direkt im PDF geprüft werden.",
+      "priorityScore": 5.15
+    },
+    {
+      "id": "marinescu08-2",
+      "examId": "marinescu08",
+      "number": 2,
+      "subtask": "alle",
+      "title": "Cauchy-Folge, Vollständigkeit und kompakt impliziert vollständig",
+      "prompt": "Cauchy-Folge, Vollständigkeit und kompakt impliziert vollständig. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": 8,
+      "estimatedMinutes": 10,
+      "topics": [
+        "metrische-raeume",
+        "vollstaendigkeit",
+        "kompaktheit"
+      ],
+      "topicLabels": [
+        "Metrische Räume",
+        "Vollständigkeit",
+        "Kompaktheit"
+      ],
+      "topicPrimary": "metrische-raeume",
+      "topicSecondary": [
+        "vollstaendigkeit",
+        "kompaktheit"
+      ],
+      "techniques": [
+        "definition",
+        "beweis"
+      ],
+      "theoryIds": [
+        "7.2.1",
+        "7.2.9",
+        "7.5.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-completeness-proof",
+      "familyRelation": "proof_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "mittel",
+      "hints": [
+        "Schreibe zuerst die drei Metrikaxiome aus.",
+        "Prüfe positive Definitheit, Symmetrie und Dreiecksungleichung getrennt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/marinescu08.pdf",
+        "file": "AnaII_Marinescu_08.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 8.36
+    },
+    {
+      "id": "marinescu08-3",
+      "examId": "marinescu08",
+      "number": 3,
+      "subtask": "alle",
+      "title": "Grenzwert und Differentiation vertauschen; Reihen berechnen",
+      "prompt": "Grenzwert und Differentiation vertauschen; Reihen berechnen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": 10,
+      "estimatedMinutes": 12,
+      "topics": [
+        "gleichmaessige-konvergenz",
+        "reihen"
+      ],
+      "topicLabels": [
+        "Gleichmäßige Konvergenz",
+        "Reihen und Potenzreihen"
+      ],
+      "topicPrimary": "gleichmaessige-konvergenz",
+      "topicSecondary": [
+        "reihen"
+      ],
+      "techniques": [
+        "satzwiedergabe",
+        "berechnung"
+      ],
+      "theoryIds": [
+        "6.1",
+        "3.4.4"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-marinescu08-3",
+      "familyRelation": "unique",
+      "difficulty": "mittel",
+      "sourceConfidence": "mittel",
+      "hints": [
+        "Der Index $N$ darf nicht vom Punkt abhängen.",
+        "Suche für Nicht-Gleichmäßigkeit Punkte, die mit $n$ variieren."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/marinescu08.pdf",
+        "file": "AnaII_Marinescu_08.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 6.39
+    },
+    {
+      "id": "marinescu08-4",
+      "examId": "marinescu08",
+      "number": 4,
+      "subtask": "alle",
+      "title": "Differenzierbarkeit in $\\mathbb R^n$ definieren",
+      "prompt": "Differenzierbarkeit in $\\mathbb R^n$ definieren. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": 4,
+      "estimatedMinutes": 8,
+      "topics": [
+        "differenzierbarkeit"
+      ],
+      "topicLabels": [
+        "Mehrdimensionale Differenzierbarkeit"
+      ],
+      "topicPrimary": "differenzierbarkeit",
+      "topicSecondary": [],
+      "techniques": [
+        "definition"
+      ],
+      "theoryIds": [
+        "8.1.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-differentiability-definition",
+      "familyRelation": "theorem_variant",
+      "difficulty": "mittel",
+      "sourceConfidence": "mittel",
+      "hints": [
+        "Unterscheide partielle, Richtungs- und totale Differenzierbarkeit.",
+        "Für totale Differenzierbarkeit muss der Restterm nach Division durch die Norm gegen null gehen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/marinescu08.pdf",
+        "file": "AnaII_Marinescu_08.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "marinescu08-5",
+      "examId": "marinescu08",
+      "number": 5,
+      "subtask": "alle",
+      "title": "Partielle Ableitungen und Differential am Ursprung; Formel im PDF prüfen",
+      "prompt": "Partielle Ableitungen und Differential am Ursprung; Formel im PDF prüfen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": 10,
+      "estimatedMinutes": 12,
+      "topics": [
+        "differenzierbarkeit"
+      ],
+      "topicLabels": [
+        "Mehrdimensionale Differenzierbarkeit"
+      ],
+      "topicPrimary": "differenzierbarkeit",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung",
+        "beweis"
+      ],
+      "theoryIds": [
+        "8.1.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-marinescu08-5",
+      "familyRelation": "unique",
+      "difficulty": "hoch",
+      "sourceConfidence": "niedrig",
+      "hints": [
+        "Unterscheide partielle, Richtungs- und totale Differenzierbarkeit.",
+        "Für totale Differenzierbarkeit muss der Restterm nach Division durch die Norm gegen null gehen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/marinescu08.pdf",
+        "file": "AnaII_Marinescu_08.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aufgabentext oder Formel muss direkt im PDF geprüft werden.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "sweers10-mix-1",
+      "examId": "sweers10-mix",
+      "number": 1,
+      "subtask": "alle",
+      "title": "Komplexe Nullstellen eines Polynoms bestimmen",
+      "prompt": "Komplexe Nullstellen eines Polynoms bestimmen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "komplexe-zahlen"
+      ],
+      "topicLabels": [
+        "Komplexe Zahlen"
+      ],
+      "topicPrimary": "komplexe-zahlen",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "niedrig",
+      "currentScopeStatus": "historically_examined",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-sweers10-mix-1",
+      "familyRelation": "unique",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere zuerst Voraussetzungen und Ziel der Aufgabe.",
+        "Zerlege die Aufgabe in einen Satz- oder Definitionsschritt und einen Rechenschritt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10-mix.pdf",
+        "file": "AnaII_Sweers_10_3.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 3.88
+    },
+    {
+      "id": "sweers10-mix-2",
+      "examId": "sweers10-mix",
+      "number": 2,
+      "subtask": "alle",
+      "title": "Uneigentliches Integral auf Konvergenz prüfen und berechnen",
+      "prompt": "Uneigentliches Integral auf Konvergenz prüfen und berechnen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "uneigentliche-integrale"
+      ],
+      "topicLabels": [
+        "Uneigentliche Integrale"
+      ],
+      "topicPrimary": "uneigentliche-integrale",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "mittel",
+      "currentScopeStatus": "likely_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-improper-integral",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere zuerst Voraussetzungen und Ziel der Aufgabe.",
+        "Zerlege die Aufgabe in einen Satz- oder Definitionsschritt und einen Rechenschritt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10-mix.pdf",
+        "file": "AnaII_Sweers_10_3.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 4.18
+    },
+    {
+      "id": "sweers10-mix-3",
+      "examId": "sweers10-mix",
+      "number": 3,
+      "subtask": "alle",
+      "title": "Abzählbarkeit einer durch rationale Quadrate definierten Menge",
+      "prompt": "Abzählbarkeit einer durch rationale Quadrate definierten Menge. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "folgen"
+      ],
+      "topicLabels": [
+        "Folgen"
+      ],
+      "topicPrimary": "folgen",
+      "topicSecondary": [],
+      "techniques": [
+        "beweis"
+      ],
+      "theoryIds": [
+        "2.1.1"
+      ],
+      "currentRelevance": "mittel",
+      "currentScopeStatus": "likely_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-sweers10-mix-3",
+      "familyRelation": "unique",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere zuerst Voraussetzungen und Ziel der Aufgabe.",
+        "Zerlege die Aufgabe in einen Satz- oder Definitionsschritt und einen Rechenschritt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10-mix.pdf",
+        "file": "AnaII_Sweers_10_3.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 3.88
+    },
+    {
+      "id": "sweers10-mix-4",
+      "examId": "sweers10-mix",
+      "number": 4,
+      "subtask": "alle",
+      "title": "Konvergenzgebiet von Potenzreihen untersuchen",
+      "prompt": "Konvergenzgebiet von Potenzreihen untersuchen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "reihen"
+      ],
+      "topicLabels": [
+        "Reihen und Potenzreihen"
+      ],
+      "topicPrimary": "reihen",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung",
+        "gegenbeispiel"
+      ],
+      "theoryIds": [
+        "3.4.4"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-sweers10-mix-4",
+      "familyRelation": "unique",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere zuerst Voraussetzungen und Ziel der Aufgabe.",
+        "Zerlege die Aufgabe in einen Satz- oder Definitionsschritt und einen Rechenschritt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10-mix.pdf",
+        "file": "AnaII_Sweers_10_3.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 4.25
+    },
+    {
+      "id": "sweers10-mix-5",
+      "examId": "sweers10-mix",
+      "number": 5,
+      "subtask": "alle",
+      "title": "Definitionsgebiete und Graphen von Sinus-Arcussinus-Kompositionen",
+      "prompt": "Definitionsgebiete und Graphen von Sinus-Arcussinus-Kompositionen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "analysis-1"
+      ],
+      "topicLabels": [
+        "Analysis-I-Wiederholung"
+      ],
+      "topicPrimary": "analysis-1",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung",
+        "skizze"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "niedrig",
+      "currentScopeStatus": "likely_outdated",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-sweers10-mix-5",
+      "familyRelation": "unique",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere zuerst Voraussetzungen und Ziel der Aufgabe.",
+        "Zerlege die Aufgabe in einen Satz- oder Definitionsschritt und einen Rechenschritt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10-mix.pdf",
+        "file": "AnaII_Sweers_10_3.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 2.37
+    },
+    {
+      "id": "sweers10-mix-6",
+      "examId": "sweers10-mix",
+      "number": 6,
+      "subtask": "alle",
+      "title": "Lineare ebene Systeme über Eigenwerte klassifizieren",
+      "prompt": "Lineare ebene Systeme über Eigenwerte klassifizieren. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "dynamische-systeme"
+      ],
+      "topicLabels": [
+        "Dynamische Systeme"
+      ],
+      "topicPrimary": "dynamische-systeme",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung",
+        "klassifikation"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "ausserhalb",
+      "currentScopeStatus": "likely_outdated",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "exact-sweers10-linear-systems",
+      "familyRelation": "exact_duplicate",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere zuerst Voraussetzungen und Ziel der Aufgabe.",
+        "Zerlege die Aufgabe in einen Satz- oder Definitionsschritt und einen Rechenschritt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10-mix.pdf",
+        "file": "AnaII_Sweers_10_3.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 1.88
+    },
+    {
+      "id": "sweers10-mix-7",
+      "examId": "sweers10-mix",
+      "number": 7,
+      "subtask": "alle",
+      "title": "Behauptetes Nebenbedingungsmaximum mit Lagrange prüfen",
+      "prompt": "Behauptetes Nebenbedingungsmaximum mit Lagrange prüfen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "lagrange"
+      ],
+      "topicLabels": [
+        "Lagrange-Multiplikatoren"
+      ],
+      "topicPrimary": "lagrange",
+      "topicSecondary": [],
+      "techniques": [
+        "satzanwendung",
+        "beweis"
+      ],
+      "theoryIds": [
+        "9.4.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "exact-sweers10-lagrange-claim",
+      "familyRelation": "exact_duplicate",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere Nebenbedingung und Regularitätsannahme explizit.",
+        "Löse $\\nabla f=\\lambda\\nabla g$ und vergleiche anschließend alle Kandidaten."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10-mix.pdf",
+        "file": "AnaII_Sweers_10_3.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 6.63
+    },
+    {
+      "id": "sweers10-mix-8",
+      "examId": "sweers10-mix",
+      "number": 8,
+      "subtask": "alle",
+      "title": "Taylorpolynom zweiter Ordnung von $\\sin(xy)$",
+      "prompt": "Taylorpolynom zweiter Ordnung von $\\sin(xy)$. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "taylor"
+      ],
+      "topicLabels": [
+        "Taylorentwicklung"
+      ],
+      "topicPrimary": "taylor",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [
+        "8.5.3"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "exact-sweers10-taylor-sinxy",
+      "familyRelation": "exact_duplicate",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere zuerst Voraussetzungen und Ziel der Aufgabe.",
+        "Zerlege die Aufgabe in einen Satz- oder Definitionsschritt und einen Rechenschritt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10-mix.pdf",
+        "file": "AnaII_Sweers_10_3.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 4.13
+    },
+    {
+      "id": "sweers10-mix-9",
+      "examId": "sweers10-mix",
+      "number": 9,
+      "subtask": "alle",
+      "title": "Produkt mit nur stetigem Faktor am Ursprung untersuchen",
+      "prompt": "Produkt mit nur stetigem Faktor am Ursprung untersuchen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "differenzierbarkeit"
+      ],
+      "topicLabels": [
+        "Mehrdimensionale Differenzierbarkeit"
+      ],
+      "topicPrimary": "differenzierbarkeit",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung",
+        "beweis"
+      ],
+      "theoryIds": [
+        "8.1.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "exact-sweers10-product-factor",
+      "familyRelation": "exact_duplicate",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Unterscheide partielle, Richtungs- und totale Differenzierbarkeit.",
+        "Für totale Differenzierbarkeit muss der Restterm nach Division durch die Norm gegen null gehen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10-mix.pdf",
+        "file": "AnaII_Sweers_10_3.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "sweers10-mix-10",
+      "examId": "sweers10-mix",
+      "number": 10,
+      "subtask": "alle",
+      "title": "Globale Extrema auf $\\mathbb R^2$ durch Verhalten im Unendlichen",
+      "prompt": "Globale Extrema auf $\\mathbb R^2$ durch Verhalten im Unendlichen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "extrema",
+        "kompaktheit"
+      ],
+      "topicLabels": [
+        "Extrema",
+        "Kompaktheit"
+      ],
+      "topicPrimary": "extrema",
+      "topicSecondary": [
+        "kompaktheit"
+      ],
+      "techniques": [
+        "beweis",
+        "berechnung"
+      ],
+      "theoryIds": [
+        "8.6.3",
+        "7.5.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "exact-sweers10-global-extrema",
+      "familyRelation": "exact_duplicate",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Bestimme zuerst alle inneren kritischen Punkte und vergiss den Rand nicht.",
+        "Klassifiziere mit Hesse-Matrix, geeigneten Kurven oder Lagrange-Bedingungen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10-mix.pdf",
+        "file": "AnaII_Sweers_10_3.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.14
+    },
+    {
+      "id": "sweers10-1",
+      "examId": "sweers10",
+      "number": 1,
+      "subtask": "alle",
+      "title": "Anfangswertproblem $y'=t/y$ lösen",
+      "prompt": "Anfangswertproblem $y'=t/y$ lösen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "differentialgleichungen"
+      ],
+      "topicLabels": [
+        "Differentialgleichungen"
+      ],
+      "topicPrimary": "differentialgleichungen",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "ausserhalb",
+      "currentScopeStatus": "unresolved",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-dgl-separable-ivp",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Bestimme zuerst den DGL-Typ und das maximale Existenzintervall.",
+        "Trennung, Variation der Konstanten oder charakteristische Gleichung liefern den Rechenweg."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10.pdf",
+        "file": "AnaII_Sweers_10_4.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aktueller Prüfungsumfang ist wegen eines Konflikts zwischen Skript und Klausurevidenz ungeklärt.",
+      "priorityScore": 6.97
+    },
+    {
+      "id": "sweers10-2",
+      "examId": "sweers10",
+      "number": 2,
+      "subtask": "alle",
+      "title": "Tangente an eine implizit definierte Kurve bestimmen",
+      "prompt": "Tangente an eine implizit definierte Kurve bestimmen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "implizite-funktionen"
+      ],
+      "topicLabels": [
+        "Implizite Funktionen"
+      ],
+      "topicPrimary": "implizite-funktionen",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [
+        "9.3.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-sweers10-2",
+      "familyRelation": "unique",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Trenne freie und aufzulösende Variablen.",
+        "Prüfe die relevante partielle Jacobi-Matrix und differenziere danach die Identität."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10.pdf",
+        "file": "AnaII_Sweers_10_4.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 7.48
+    },
+    {
+      "id": "sweers10-3",
+      "examId": "sweers10",
+      "number": 3,
+      "subtask": "alle",
+      "title": "Stetigkeit und Differenzierbarkeit einer stückweisen Funktion",
+      "prompt": "Stetigkeit und Differenzierbarkeit einer stückweisen Funktion. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "differenzierbarkeit",
+        "stetigkeit"
+      ],
+      "topicLabels": [
+        "Mehrdimensionale Differenzierbarkeit",
+        "Stetigkeit"
+      ],
+      "topicPrimary": "differenzierbarkeit",
+      "topicSecondary": [
+        "stetigkeit"
+      ],
+      "techniques": [
+        "beweis",
+        "gegenbeispiel"
+      ],
+      "theoryIds": [
+        "8.1.1",
+        "7.4.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-continuity-vs-differentiability",
+      "familyRelation": "proof_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Unterscheide partielle, Richtungs- und totale Differenzierbarkeit.",
+        "Für totale Differenzierbarkeit muss der Restterm nach Division durch die Norm gegen null gehen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10.pdf",
+        "file": "AnaII_Sweers_10_4.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "sweers10-4",
+      "examId": "sweers10",
+      "number": 4,
+      "subtask": "alle",
+      "title": "Bogenlänge einer Raumkurve aufstellen",
+      "prompt": "Bogenlänge einer Raumkurve aufstellen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "kurven"
+      ],
+      "topicLabels": [
+        "Kurven und Bogenlänge"
+      ],
+      "topicPrimary": "kurven",
+      "topicSecondary": [],
+      "techniques": [
+        "definition",
+        "berechnung"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "niedrig",
+      "currentScopeStatus": "likely_outdated",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-curve-length",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Leite die Parametrisierung ab.",
+        "Die Bogenlänge ist das Integral der Geschwindigkeit $\\|\\gamma'(t)\\|$."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10.pdf",
+        "file": "AnaII_Sweers_10_4.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 3.53
+    },
+    {
+      "id": "sweers10-5",
+      "examId": "sweers10",
+      "number": 5,
+      "subtask": "alle",
+      "title": "Lineare ebene Systeme klassifizieren",
+      "prompt": "Lineare ebene Systeme klassifizieren. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "dynamische-systeme"
+      ],
+      "topicLabels": [
+        "Dynamische Systeme"
+      ],
+      "topicPrimary": "dynamische-systeme",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung",
+        "klassifikation"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "ausserhalb",
+      "currentScopeStatus": "likely_outdated",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "exact-sweers10-linear-systems",
+      "familyRelation": "exact_duplicate",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere zuerst Voraussetzungen und Ziel der Aufgabe.",
+        "Zerlege die Aufgabe in einen Satz- oder Definitionsschritt und einen Rechenschritt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10.pdf",
+        "file": "AnaII_Sweers_10_4.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 1.88
+    },
+    {
+      "id": "sweers10-6",
+      "examId": "sweers10",
+      "number": 6,
+      "subtask": "alle",
+      "title": "Lagrange-Bedingung für ein behauptetes Maximum prüfen",
+      "prompt": "Lagrange-Bedingung für ein behauptetes Maximum prüfen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "lagrange"
+      ],
+      "topicLabels": [
+        "Lagrange-Multiplikatoren"
+      ],
+      "topicPrimary": "lagrange",
+      "topicSecondary": [],
+      "techniques": [
+        "satzanwendung",
+        "beweis"
+      ],
+      "theoryIds": [
+        "9.4.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "exact-sweers10-lagrange-claim",
+      "familyRelation": "exact_duplicate",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere Nebenbedingung und Regularitätsannahme explizit.",
+        "Löse $\\nabla f=\\lambda\\nabla g$ und vergleiche anschließend alle Kandidaten."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10.pdf",
+        "file": "AnaII_Sweers_10_4.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 6.63
+    },
+    {
+      "id": "sweers10-7",
+      "examId": "sweers10",
+      "number": 7,
+      "subtask": "alle",
+      "title": "Taylorpolynom zweiter Ordnung von $\\sin(xy)$",
+      "prompt": "Taylorpolynom zweiter Ordnung von $\\sin(xy)$. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "taylor"
+      ],
+      "topicLabels": [
+        "Taylorentwicklung"
+      ],
+      "topicPrimary": "taylor",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [
+        "8.5.3"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "exact-sweers10-taylor-sinxy",
+      "familyRelation": "exact_duplicate",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere zuerst Voraussetzungen und Ziel der Aufgabe.",
+        "Zerlege die Aufgabe in einen Satz- oder Definitionsschritt und einen Rechenschritt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10.pdf",
+        "file": "AnaII_Sweers_10_4.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 4.13
+    },
+    {
+      "id": "sweers10-8",
+      "examId": "sweers10",
+      "number": 8,
+      "subtask": "alle",
+      "title": "Doppelintegral über ein durch Ungleichungen gegebenes Gebiet",
+      "prompt": "Doppelintegral über ein durch Ungleichungen gegebenes Gebiet. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 3,
+      "pageEnd": 3,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "mehrdimensionale-integrale"
+      ],
+      "topicLabels": [
+        "Mehrdimensionale Integrale"
+      ],
+      "topicPrimary": "mehrdimensionale-integrale",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "ausserhalb",
+      "currentScopeStatus": "unresolved",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-multidimensional-integral",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere zuerst Voraussetzungen und Ziel der Aufgabe.",
+        "Zerlege die Aufgabe in einen Satz- oder Definitionsschritt und einen Rechenschritt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10.pdf",
+        "file": "AnaII_Sweers_10_4.pdf",
+        "page": 3,
+        "originalPage": 3
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aktueller Prüfungsumfang ist wegen eines Konflikts zwischen Skript und Klausurevidenz ungeklärt.",
+      "priorityScore": 4.47
+    },
+    {
+      "id": "sweers10-9",
+      "examId": "sweers10",
+      "number": 9,
+      "subtask": "alle",
+      "title": "Produktfunktion bei schwachen Voraussetzungen untersuchen",
+      "prompt": "Produktfunktion bei schwachen Voraussetzungen untersuchen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 3,
+      "pageEnd": 3,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "differenzierbarkeit"
+      ],
+      "topicLabels": [
+        "Mehrdimensionale Differenzierbarkeit"
+      ],
+      "topicPrimary": "differenzierbarkeit",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung",
+        "beweis"
+      ],
+      "theoryIds": [
+        "8.1.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "exact-sweers10-product-factor",
+      "familyRelation": "exact_duplicate",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Unterscheide partielle, Richtungs- und totale Differenzierbarkeit.",
+        "Für totale Differenzierbarkeit muss der Restterm nach Division durch die Norm gegen null gehen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10.pdf",
+        "file": "AnaII_Sweers_10_4.pdf",
+        "page": 3,
+        "originalPage": 3
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "sweers10-10",
+      "examId": "sweers10",
+      "number": 10,
+      "subtask": "alle",
+      "title": "Existenz und Berechnung globaler Extrema auf $\\mathbb R^2$",
+      "prompt": "Existenz und Berechnung globaler Extrema auf $\\mathbb R^2$. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 3,
+      "pageEnd": 3,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "extrema",
+        "kompaktheit"
+      ],
+      "topicLabels": [
+        "Extrema",
+        "Kompaktheit"
+      ],
+      "topicPrimary": "extrema",
+      "topicSecondary": [
+        "kompaktheit"
+      ],
+      "techniques": [
+        "beweis",
+        "berechnung"
+      ],
+      "theoryIds": [
+        "8.6.3",
+        "7.5.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "exact-sweers10-global-extrema",
+      "familyRelation": "exact_duplicate",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Bestimme zuerst alle inneren kritischen Punkte und vergiss den Rand nicht.",
+        "Klassifiziere mit Hesse-Matrix, geeigneten Kurven oder Lagrange-Bedingungen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers10.pdf",
+        "file": "AnaII_Sweers_10_4.pdf",
+        "page": 3,
+        "originalPage": 3
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.14
+    },
+    {
+      "id": "sweers14-1-1",
+      "examId": "sweers14-1",
+      "number": 1,
+      "subtask": "alle",
+      "title": "Länge einer Raumkurve berechnen",
+      "prompt": "Länge einer Raumkurve berechnen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "kurven"
+      ],
+      "topicLabels": [
+        "Kurven und Bogenlänge"
+      ],
+      "topicPrimary": "kurven",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "niedrig",
+      "currentScopeStatus": "likely_outdated",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-curve-length",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Leite die Parametrisierung ab.",
+        "Die Bogenlänge ist das Integral der Geschwindigkeit $\\|\\gamma'(t)\\|$."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers14-1.pdf",
+        "file": "AnaII_Sweers_14_1.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 3.53
+    },
+    {
+      "id": "sweers14-1-2",
+      "examId": "sweers14-1",
+      "number": 2,
+      "subtask": "alle",
+      "title": "Parameterwerte für ein Minimum einer quadratischen Form",
+      "prompt": "Parameterwerte für ein Minimum einer quadratischen Form. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "extrema"
+      ],
+      "topicLabels": [
+        "Extrema"
+      ],
+      "topicPrimary": "extrema",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [
+        "8.6.3"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-sweers14-1-2",
+      "familyRelation": "unique",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Bestimme zuerst alle inneren kritischen Punkte und vergiss den Rand nicht.",
+        "Klassifiziere mit Hesse-Matrix, geeigneten Kurven oder Lagrange-Bedingungen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers14-1.pdf",
+        "file": "AnaII_Sweers_14_1.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.14
+    },
+    {
+      "id": "sweers14-1-3",
+      "examId": "sweers14-1",
+      "number": 3,
+      "subtask": "alle",
+      "title": "Alle Lösungen einer separierbaren DGL bestimmen",
+      "prompt": "Alle Lösungen einer separierbaren DGL bestimmen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "differentialgleichungen"
+      ],
+      "topicLabels": [
+        "Differentialgleichungen"
+      ],
+      "topicPrimary": "differentialgleichungen",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "ausserhalb",
+      "currentScopeStatus": "unresolved",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-dgl-separable-ivp",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Bestimme zuerst den DGL-Typ und das maximale Existenzintervall.",
+        "Trennung, Variation der Konstanten oder charakteristische Gleichung liefern den Rechenweg."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers14-1.pdf",
+        "file": "AnaII_Sweers_14_1.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aktueller Prüfungsumfang ist wegen eines Konflikts zwischen Skript und Klausurevidenz ungeklärt.",
+      "priorityScore": 6.97
+    },
+    {
+      "id": "sweers14-1-4",
+      "examId": "sweers14-1",
+      "number": 4,
+      "subtask": "alle",
+      "title": "Differenzierbarkeit und Stetigkeit logisch vergleichen",
+      "prompt": "Differenzierbarkeit und Stetigkeit logisch vergleichen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "differenzierbarkeit",
+        "stetigkeit"
+      ],
+      "topicLabels": [
+        "Mehrdimensionale Differenzierbarkeit",
+        "Stetigkeit"
+      ],
+      "topicPrimary": "differenzierbarkeit",
+      "topicSecondary": [
+        "stetigkeit"
+      ],
+      "techniques": [
+        "beweis",
+        "gegenbeispiel"
+      ],
+      "theoryIds": [
+        "8.1.1",
+        "7.4.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-continuity-vs-differentiability",
+      "familyRelation": "proof_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Unterscheide partielle, Richtungs- und totale Differenzierbarkeit.",
+        "Für totale Differenzierbarkeit muss der Restterm nach Division durch die Norm gegen null gehen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers14-1.pdf",
+        "file": "AnaII_Sweers_14_1.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "sweers14-1-5",
+      "examId": "sweers14-1",
+      "number": 5,
+      "subtask": "alle",
+      "title": "Partielle und Richtungsableitungen versus Differenzierbarkeit",
+      "prompt": "Partielle und Richtungsableitungen versus Differenzierbarkeit. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "richtungsableitungen",
+        "differenzierbarkeit"
+      ],
+      "topicLabels": [
+        "Richtungsableitungen",
+        "Mehrdimensionale Differenzierbarkeit"
+      ],
+      "topicPrimary": "richtungsableitungen",
+      "topicSecondary": [
+        "differenzierbarkeit"
+      ],
+      "techniques": [
+        "berechnung",
+        "gegenbeispiel"
+      ],
+      "theoryIds": [
+        "8.2",
+        "8.1.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-directional-not-total",
+      "familyRelation": "proof_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Setze die Gerade $h\\mapsto hv$ in die Funktion ein.",
+        "Existenz aller Richtungsableitungen allein beweist noch keine Differenzierbarkeit."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers14-1.pdf",
+        "file": "AnaII_Sweers_14_1.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "sweers14-1-6",
+      "examId": "sweers14-1",
+      "number": 6,
+      "subtask": "alle",
+      "title": "Extrema auf einer implizit gegebenen Fläche",
+      "prompt": "Extrema auf einer implizit gegebenen Fläche. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "lagrange"
+      ],
+      "topicLabels": [
+        "Lagrange-Multiplikatoren"
+      ],
+      "topicPrimary": "lagrange",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [
+        "9.4.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-lagrange-constrained-extrema",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere Nebenbedingung und Regularitätsannahme explizit.",
+        "Löse $\\nabla f=\\lambda\\nabla g$ und vergleiche anschließend alle Kandidaten."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers14-1.pdf",
+        "file": "AnaII_Sweers_14_1.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 6.63
+    },
+    {
+      "id": "sweers14-1-7",
+      "examId": "sweers14-1",
+      "number": 7,
+      "subtask": "alle",
+      "title": "Ausnahmemenge lokaler Invertierbarkeit bestimmen",
+      "prompt": "Ausnahmemenge lokaler Invertierbarkeit bestimmen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "umkehrsatz"
+      ],
+      "topicLabels": [
+        "Umkehrsatz"
+      ],
+      "topicPrimary": "umkehrsatz",
+      "topicSecondary": [],
+      "techniques": [
+        "satzanwendung",
+        "berechnung"
+      ],
+      "theoryIds": [
+        "9.2.5"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-inverse-local-invertibility",
+      "familyRelation": "theorem_variant",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Berechne die Jacobi-Matrix und ihre Determinante.",
+        "Der Satz liefert lokale, nicht automatisch globale Invertierbarkeit."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers14-1.pdf",
+        "file": "AnaII_Sweers_14_1.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 6.26
+    },
+    {
+      "id": "sweers14-1-8",
+      "examId": "sweers14-1",
+      "number": 8,
+      "subtask": "alle",
+      "title": "Zusammenhang definieren und eine Hyperbel klassifizieren",
+      "prompt": "Zusammenhang definieren und eine Hyperbel klassifizieren. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "zusammenhang"
+      ],
+      "topicLabels": [
+        "Zusammenhang"
+      ],
+      "topicPrimary": "zusammenhang",
+      "topicSecondary": [],
+      "techniques": [
+        "definition",
+        "klassifikation"
+      ],
+      "theoryIds": [
+        "7.6.2"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-sweers14-1-8",
+      "familyRelation": "unique",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere zuerst Voraussetzungen und Ziel der Aufgabe.",
+        "Zerlege die Aufgabe in einen Satz- oder Definitionsschritt und einen Rechenschritt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers14-1.pdf",
+        "file": "AnaII_Sweers_14_1.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 5.17
+    },
+    {
+      "id": "sweers14-2-1",
+      "examId": "sweers14-2",
+      "number": 1,
+      "subtask": "alle",
+      "title": "Länge einer sphärischen Raumkurve",
+      "prompt": "Länge einer sphärischen Raumkurve. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "kurven"
+      ],
+      "topicLabels": [
+        "Kurven und Bogenlänge"
+      ],
+      "topicPrimary": "kurven",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "niedrig",
+      "currentScopeStatus": "likely_outdated",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-curve-length",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Leite die Parametrisierung ab.",
+        "Die Bogenlänge ist das Integral der Geschwindigkeit $\\|\\gamma'(t)\\|$."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers14-2.pdf",
+        "file": "AnaII_Sweers_14_2.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 3.53
+    },
+    {
+      "id": "sweers14-2-2",
+      "examId": "sweers14-2",
+      "number": 2,
+      "subtask": "alle",
+      "title": "Stationären Punkt einer Funktion klassifizieren",
+      "prompt": "Stationären Punkt einer Funktion klassifizieren. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "extrema"
+      ],
+      "topicLabels": [
+        "Extrema"
+      ],
+      "topicPrimary": "extrema",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [
+        "8.6.3"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-critical-point-classification",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Bestimme zuerst alle inneren kritischen Punkte und vergiss den Rand nicht.",
+        "Klassifiziere mit Hesse-Matrix, geeigneten Kurven oder Lagrange-Bedingungen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers14-2.pdf",
+        "file": "AnaII_Sweers_14_2.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.14
+    },
+    {
+      "id": "sweers14-2-3",
+      "examId": "sweers14-2",
+      "number": 3,
+      "subtask": "alle",
+      "title": "Offenheit, Abgeschlossenheit und Koordinatenprojektionen",
+      "prompt": "Offenheit, Abgeschlossenheit und Koordinatenprojektionen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 3,
+      "pageEnd": 3,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "topologie"
+      ],
+      "topicLabels": [
+        "Topologie"
+      ],
+      "topicPrimary": "topologie",
+      "topicSecondary": [],
+      "techniques": [
+        "definition",
+        "beweis",
+        "gegenbeispiel"
+      ],
+      "theoryIds": [
+        "7.3.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-topology-definition-classification",
+      "familyRelation": "theorem_variant",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Arbeite direkt mit offenen Umgebungen oder Kugeln.",
+        "Für Gegenbeispiele sind indiskrete Topologien und Folgen oft besonders effizient."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers14-2.pdf",
+        "file": "AnaII_Sweers_14_2.pdf",
+        "page": 3,
+        "originalPage": 3
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 7.74
+    },
+    {
+      "id": "sweers14-2-4",
+      "examId": "sweers14-2",
+      "number": 4,
+      "subtask": "alle",
+      "title": "Nichtlineare DGL mit einer bijektiven Hilfsfunktion lösen",
+      "prompt": "Nichtlineare DGL mit einer bijektiven Hilfsfunktion lösen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 4,
+      "pageEnd": 4,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "differentialgleichungen",
+        "umkehrsatz"
+      ],
+      "topicLabels": [
+        "Differentialgleichungen",
+        "Umkehrsatz"
+      ],
+      "topicPrimary": "differentialgleichungen",
+      "topicSecondary": [
+        "umkehrsatz"
+      ],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [
+        "9.2.5"
+      ],
+      "currentRelevance": "ausserhalb",
+      "currentScopeStatus": "unresolved",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-dgl-separable-ivp",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Bestimme zuerst den DGL-Typ und das maximale Existenzintervall.",
+        "Trennung, Variation der Konstanten oder charakteristische Gleichung liefern den Rechenweg."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers14-2.pdf",
+        "file": "AnaII_Sweers_14_2.pdf",
+        "page": 4,
+        "originalPage": 4
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aktueller Prüfungsumfang ist wegen eines Konflikts zwischen Skript und Klausurevidenz ungeklärt.",
+      "priorityScore": 6.97
+    },
+    {
+      "id": "sweers14-2-5",
+      "examId": "sweers14-2",
+      "number": 5,
+      "subtask": "alle",
+      "title": "Stetigkeit und Differenzierbarkeit von $|xy|$",
+      "prompt": "Stetigkeit und Differenzierbarkeit von $|xy|$. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 5,
+      "pageEnd": 5,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "stetigkeit",
+        "differenzierbarkeit"
+      ],
+      "topicLabels": [
+        "Stetigkeit",
+        "Mehrdimensionale Differenzierbarkeit"
+      ],
+      "topicPrimary": "stetigkeit",
+      "topicSecondary": [
+        "differenzierbarkeit"
+      ],
+      "techniques": [
+        "beweis",
+        "gegenbeispiel"
+      ],
+      "theoryIds": [
+        "7.4.1",
+        "8.1.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-continuity-vs-differentiability",
+      "familyRelation": "proof_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere zuerst Voraussetzungen und Ziel der Aufgabe.",
+        "Zerlege die Aufgabe in einen Satz- oder Definitionsschritt und einen Rechenschritt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers14-2.pdf",
+        "file": "AnaII_Sweers_14_2.pdf",
+        "page": 5,
+        "originalPage": 5
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "sweers14-2-6",
+      "examId": "sweers14-2",
+      "number": 6,
+      "subtask": "alle",
+      "title": "Kürzesten Abstand unter der Nebenbedingung $x^2y=2$ bestimmen",
+      "prompt": "Kürzesten Abstand unter der Nebenbedingung $x^2y=2$ bestimmen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 6,
+      "pageEnd": 6,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "lagrange"
+      ],
+      "topicLabels": [
+        "Lagrange-Multiplikatoren"
+      ],
+      "topicPrimary": "lagrange",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [
+        "9.4.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-lagrange-constrained-extrema",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere Nebenbedingung und Regularitätsannahme explizit.",
+        "Löse $\\nabla f=\\lambda\\nabla g$ und vergleiche anschließend alle Kandidaten."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers14-2.pdf",
+        "file": "AnaII_Sweers_14_2.pdf",
+        "page": 6,
+        "originalPage": 6
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 6.63
+    },
+    {
+      "id": "sweers14-2-7",
+      "examId": "sweers14-2",
+      "number": 7,
+      "subtask": "alle",
+      "title": "Kurven fehlender lokaler Invertierbarkeit bestimmen",
+      "prompt": "Kurven fehlender lokaler Invertierbarkeit bestimmen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 7,
+      "pageEnd": 7,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "umkehrsatz"
+      ],
+      "topicLabels": [
+        "Umkehrsatz"
+      ],
+      "topicPrimary": "umkehrsatz",
+      "topicSecondary": [],
+      "techniques": [
+        "satzanwendung",
+        "berechnung"
+      ],
+      "theoryIds": [
+        "9.2.5"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-inverse-local-invertibility",
+      "familyRelation": "theorem_variant",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Berechne die Jacobi-Matrix und ihre Determinante.",
+        "Der Satz liefert lokale, nicht automatisch globale Invertierbarkeit."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers14-2.pdf",
+        "file": "AnaII_Sweers_14_2.pdf",
+        "page": 7,
+        "originalPage": 7
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 6.26
+    },
+    {
+      "id": "sweers14-2-8",
+      "examId": "sweers14-2",
+      "number": 8,
+      "subtask": "alle",
+      "title": "Doppelintegral über ein Dreiecksgebiet",
+      "prompt": "Doppelintegral über ein Dreiecksgebiet. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 8,
+      "pageEnd": 8,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "mehrdimensionale-integrale"
+      ],
+      "topicLabels": [
+        "Mehrdimensionale Integrale"
+      ],
+      "topicPrimary": "mehrdimensionale-integrale",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "ausserhalb",
+      "currentScopeStatus": "unresolved",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-multidimensional-integral",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere zuerst Voraussetzungen und Ziel der Aufgabe.",
+        "Zerlege die Aufgabe in einen Satz- oder Definitionsschritt und einen Rechenschritt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/sweers14-2.pdf",
+        "file": "AnaII_Sweers_14_2.pdf",
+        "page": 8,
+        "originalPage": 8
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aktueller Prüfungsumfang ist wegen eines Konflikts zwischen Skript und Klausurevidenz ungeklärt.",
+      "priorityScore": 4.47
+    },
+    {
+      "id": "thorbergsson13-1",
+      "examId": "thorbergsson13",
+      "number": 1,
+      "subtask": "alle",
+      "title": "Stetigkeit einer Koordinatenprojektion beweisen",
+      "prompt": "Stetigkeit einer Koordinatenprojektion beweisen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "stetigkeit"
+      ],
+      "topicLabels": [
+        "Stetigkeit"
+      ],
+      "topicPrimary": "stetigkeit",
+      "topicSecondary": [],
+      "techniques": [
+        "beweis"
+      ],
+      "theoryIds": [
+        "7.4.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-thorbergsson13-1",
+      "familyRelation": "unique",
+      "difficulty": "hoch",
+      "sourceConfidence": "niedrig",
+      "hints": [
+        "Formuliere zuerst Voraussetzungen und Ziel der Aufgabe.",
+        "Zerlege die Aufgabe in einen Satz- oder Definitionsschritt und einen Rechenschritt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/thorbergsson13.pdf",
+        "file": "AnaII_Thorbergsson_13.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aufgabentext oder Formel muss direkt im PDF geprüft werden.",
+      "priorityScore": 6.94
+    },
+    {
+      "id": "thorbergsson13-2",
+      "examId": "thorbergsson13",
+      "number": 2,
+      "subtask": "alle",
+      "title": "Zwei uneigentliche Integrale untersuchen",
+      "prompt": "Zwei uneigentliche Integrale untersuchen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "uneigentliche-integrale"
+      ],
+      "topicLabels": [
+        "Uneigentliche Integrale"
+      ],
+      "topicPrimary": "uneigentliche-integrale",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "mittel",
+      "currentScopeStatus": "likely_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-improper-integral",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "niedrig",
+      "hints": [
+        "Formuliere zuerst Voraussetzungen und Ziel der Aufgabe.",
+        "Zerlege die Aufgabe in einen Satz- oder Definitionsschritt und einen Rechenschritt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/thorbergsson13.pdf",
+        "file": "AnaII_Thorbergsson_13.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aufgabentext oder Formel muss direkt im PDF geprüft werden.",
+      "priorityScore": 4.18
+    },
+    {
+      "id": "thorbergsson13-3",
+      "examId": "thorbergsson13",
+      "number": 3,
+      "subtask": "alle",
+      "title": "Metrik, Durchmesser und zusammenhängende Teilmengen von $\\mathbb N$",
+      "prompt": "Metrik, Durchmesser und zusammenhängende Teilmengen von $\\mathbb N$. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "metrische-raeume",
+        "zusammenhang"
+      ],
+      "topicLabels": [
+        "Metrische Räume",
+        "Zusammenhang"
+      ],
+      "topicPrimary": "metrische-raeume",
+      "topicSecondary": [
+        "zusammenhang"
+      ],
+      "techniques": [
+        "beweis",
+        "berechnung"
+      ],
+      "theoryIds": [
+        "7.2.1",
+        "7.6.2"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-thorbergsson13-3",
+      "familyRelation": "unique",
+      "difficulty": "hoch",
+      "sourceConfidence": "niedrig",
+      "hints": [
+        "Schreibe zuerst die drei Metrikaxiome aus.",
+        "Prüfe positive Definitheit, Symmetrie und Dreiecksungleichung getrennt."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/thorbergsson13.pdf",
+        "file": "AnaII_Thorbergsson_13.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aufgabentext oder Formel muss direkt im PDF geprüft werden.",
+      "priorityScore": 8.36
+    },
+    {
+      "id": "thorbergsson13-4",
+      "examId": "thorbergsson13",
+      "number": 4,
+      "subtask": "alle",
+      "title": "Richtungsableitungen einer rationalen Funktion am Ursprung",
+      "prompt": "Richtungsableitungen einer rationalen Funktion am Ursprung. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "richtungsableitungen",
+        "differenzierbarkeit"
+      ],
+      "topicLabels": [
+        "Richtungsableitungen",
+        "Mehrdimensionale Differenzierbarkeit"
+      ],
+      "topicPrimary": "richtungsableitungen",
+      "topicSecondary": [
+        "differenzierbarkeit"
+      ],
+      "techniques": [
+        "berechnung",
+        "gegenbeispiel"
+      ],
+      "theoryIds": [
+        "8.2",
+        "8.1.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-directional-not-total",
+      "familyRelation": "proof_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "niedrig",
+      "hints": [
+        "Setze die Gerade $h\\mapsto hv$ in die Funktion ein.",
+        "Existenz aller Richtungsableitungen allein beweist noch keine Differenzierbarkeit."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/thorbergsson13.pdf",
+        "file": "AnaII_Thorbergsson_13.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aufgabentext oder Formel muss direkt im PDF geprüft werden.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "thorbergsson13-5",
+      "examId": "thorbergsson13",
+      "number": 5,
+      "subtask": "alle",
+      "title": "Differential einer radialen Funktion in Tangentialrichtung",
+      "prompt": "Differential einer radialen Funktion in Tangentialrichtung. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "differenzierbarkeit"
+      ],
+      "topicLabels": [
+        "Mehrdimensionale Differenzierbarkeit"
+      ],
+      "topicPrimary": "differenzierbarkeit",
+      "topicSecondary": [],
+      "techniques": [
+        "beweis"
+      ],
+      "theoryIds": [
+        "8.1.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-thorbergsson13-5",
+      "familyRelation": "unique",
+      "difficulty": "hoch",
+      "sourceConfidence": "niedrig",
+      "hints": [
+        "Unterscheide partielle, Richtungs- und totale Differenzierbarkeit.",
+        "Für totale Differenzierbarkeit muss der Restterm nach Division durch die Norm gegen null gehen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/thorbergsson13.pdf",
+        "file": "AnaII_Thorbergsson_13.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aufgabentext oder Formel muss direkt im PDF geprüft werden.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "thorbergsson13-6",
+      "examId": "thorbergsson13",
+      "number": 6,
+      "subtask": "alle",
+      "title": "Kritische Punkte und globale Werte auf dem Quadrat",
+      "prompt": "Kritische Punkte und globale Werte auf dem Quadrat. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "extrema"
+      ],
+      "topicLabels": [
+        "Extrema"
+      ],
+      "topicPrimary": "extrema",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [
+        "8.6.3"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-thorbergsson13-6",
+      "familyRelation": "unique",
+      "difficulty": "mittel",
+      "sourceConfidence": "niedrig",
+      "hints": [
+        "Bestimme zuerst alle inneren kritischen Punkte und vergiss den Rand nicht.",
+        "Klassifiziere mit Hesse-Matrix, geeigneten Kurven oder Lagrange-Bedingungen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/thorbergsson13.pdf",
+        "file": "AnaII_Thorbergsson_13.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aufgabentext oder Formel muss direkt im PDF geprüft werden.",
+      "priorityScore": 9.14
+    },
+    {
+      "id": "thorbergsson13-7",
+      "examId": "thorbergsson13",
+      "number": 7,
+      "subtask": "alle",
+      "title": "Unvollständig überlieferte Aufgabe zur punktweisen Konvergenz",
+      "prompt": "Unvollständig überlieferte Aufgabe zur punktweisen Konvergenz. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "gleichmaessige-konvergenz",
+        "unsicher"
+      ],
+      "topicLabels": [
+        "Gleichmäßige Konvergenz",
+        "Unvollständig überlieferte Aufgabe"
+      ],
+      "topicPrimary": "gleichmaessige-konvergenz",
+      "topicSecondary": [
+        "unsicher"
+      ],
+      "techniques": [
+        "unvollstaendig"
+      ],
+      "theoryIds": [
+        "6.1"
+      ],
+      "currentRelevance": "niedrig",
+      "currentScopeStatus": "unresolved",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "unresolved",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-thorbergsson13-7",
+      "familyRelation": "unique",
+      "difficulty": "mittel",
+      "sourceConfidence": "niedrig",
+      "hints": [
+        "Der Index $N$ darf nicht vom Punkt abhängen.",
+        "Suche für Nicht-Gleichmäßigkeit Punkte, die mit $n$ variieren."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/thorbergsson13.pdf",
+        "file": "AnaII_Thorbergsson_13.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aufgabentext oder Formel muss direkt im PDF geprüft werden. Aktueller Prüfungsumfang ist wegen eines Konflikts zwischen Skript und Klausurevidenz ungeklärt.",
+      "priorityScore": 6.39
+    },
+    {
+      "id": "thorbergsson13-8",
+      "examId": "thorbergsson13",
+      "number": 8,
+      "subtask": "alle",
+      "title": "Eine durch ein Integral definierte Funktion ist Lipschitz-stetig",
+      "prompt": "Eine durch ein Integral definierte Funktion ist Lipschitz-stetig. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": null,
+      "estimatedMinutes": 18,
+      "topics": [
+        "integralrechnung",
+        "stetigkeit"
+      ],
+      "topicLabels": [
+        "Integralrechnung",
+        "Stetigkeit"
+      ],
+      "topicPrimary": "integralrechnung",
+      "topicSecondary": [
+        "stetigkeit"
+      ],
+      "techniques": [
+        "beweis"
+      ],
+      "theoryIds": [
+        "6.4.2",
+        "7.4.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-thorbergsson13-8",
+      "familyRelation": "unique",
+      "difficulty": "hoch",
+      "sourceConfidence": "niedrig",
+      "hints": [
+        "Bestimme zuerst Gebiet und Integrationsreihenfolge.",
+        "Prüfe Existenz und führe Substitution oder Koordinatenwechsel mit Jacobi-Faktor aus."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/thorbergsson13.pdf",
+        "file": "AnaII_Thorbergsson_13.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aufgabentext oder Formel muss direkt im PDF geprüft werden.",
+      "priorityScore": 6.94
+    },
+    {
+      "id": "ss20-1",
+      "examId": "ss20",
+      "number": 1,
+      "subtask": "alle",
+      "title": "Lokale gleichmäßige Konvergenz einer Funktionenfolge",
+      "prompt": "Lokale gleichmäßige Konvergenz einer Funktionenfolge. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": 7,
+      "estimatedMinutes": 9,
+      "topics": [
+        "gleichmaessige-konvergenz"
+      ],
+      "topicLabels": [
+        "Gleichmäßige Konvergenz"
+      ],
+      "topicPrimary": "gleichmaessige-konvergenz",
+      "topicSecondary": [],
+      "techniques": [
+        "beweis",
+        "gegenbeispiel"
+      ],
+      "theoryIds": [
+        "6.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-ss20-1",
+      "familyRelation": "unique",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Der Index $N$ darf nicht vom Punkt abhängen.",
+        "Suche für Nicht-Gleichmäßigkeit Punkte, die mit $n$ variieren."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/ss20.pdf",
+        "file": "klausur1_ss20a.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 6.39
+    },
+    {
+      "id": "ss20-2",
+      "examId": "ss20",
+      "number": 2,
+      "subtask": "alle",
+      "title": "Kompakte Zylinder und eine uniforme offene Umgebung",
+      "prompt": "Kompakte Zylinder und eine uniforme offene Umgebung. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": 12,
+      "estimatedMinutes": 15,
+      "topics": [
+        "kompaktheit",
+        "topologie"
+      ],
+      "topicLabels": [
+        "Kompaktheit",
+        "Topologie"
+      ],
+      "topicPrimary": "kompaktheit",
+      "topicSecondary": [
+        "topologie"
+      ],
+      "techniques": [
+        "definition",
+        "beweis"
+      ],
+      "theoryIds": [
+        "7.5.1",
+        "7.3.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "unique-ss20-2",
+      "familyRelation": "unique",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Entscheide zuerst, welche Kompaktheitscharakterisierung hier am kürzesten ist.",
+        "In endlichdimensionalen Räumen helfen Abgeschlossenheit und Beschränktheit; sonst nicht ungeprüft verwenden."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/ss20.pdf",
+        "file": "klausur1_ss20a.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 7.89
+    },
+    {
+      "id": "ss20-3",
+      "examId": "ss20",
+      "number": 3,
+      "subtask": "alle",
+      "title": "Anfangswertproblem lösen und verifizieren",
+      "prompt": "Anfangswertproblem lösen und verifizieren. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": 12,
+      "estimatedMinutes": 15,
+      "topics": [
+        "differentialgleichungen"
+      ],
+      "topicLabels": [
+        "Differentialgleichungen"
+      ],
+      "topicPrimary": "differentialgleichungen",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "ausserhalb",
+      "currentScopeStatus": "unresolved",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-dgl-separable-ivp",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Bestimme zuerst den DGL-Typ und das maximale Existenzintervall.",
+        "Trennung, Variation der Konstanten oder charakteristische Gleichung liefern den Rechenweg."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/ss20.pdf",
+        "file": "klausur1_ss20a.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aktueller Prüfungsumfang ist wegen eines Konflikts zwischen Skript und Klausurevidenz ungeklärt.",
+      "priorityScore": 6.97
+    },
+    {
+      "id": "ss20-4",
+      "examId": "ss20",
+      "number": 4,
+      "subtask": "alle",
+      "title": "Lokale und globale Extrema auf einer Ellipse",
+      "prompt": "Lokale und globale Extrema auf einer Ellipse. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "points": 12,
+      "estimatedMinutes": 15,
+      "topics": [
+        "extrema",
+        "lagrange"
+      ],
+      "topicLabels": [
+        "Extrema",
+        "Lagrange-Multiplikatoren"
+      ],
+      "topicPrimary": "extrema",
+      "topicSecondary": [
+        "lagrange"
+      ],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [
+        "8.6.3",
+        "9.4.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-lagrange-constrained-extrema",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Bestimme zuerst alle inneren kritischen Punkte und vergiss den Rand nicht.",
+        "Klassifiziere mit Hesse-Matrix, geeigneten Kurven oder Lagrange-Bedingungen."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/ss20.pdf",
+        "file": "klausur1_ss20a.pdf",
+        "page": 1,
+        "originalPage": 1
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.14
+    },
+    {
+      "id": "ss20-5",
+      "examId": "ss20",
+      "number": 5,
+      "subtask": "alle",
+      "title": "Implizit definierte Funktionen und ihre Ableitungen",
+      "prompt": "Implizit definierte Funktionen und ihre Ableitungen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": 10,
+      "estimatedMinutes": 12,
+      "topics": [
+        "implizite-funktionen"
+      ],
+      "topicLabels": [
+        "Implizite Funktionen"
+      ],
+      "topicPrimary": "implizite-funktionen",
+      "topicSecondary": [],
+      "techniques": [
+        "satzanwendung",
+        "berechnung"
+      ],
+      "theoryIds": [
+        "9.3.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "no_solution",
+      "gradingStatus": "estimated_scoring",
+      "duplicateFamily": "template-implicit-function-derivatives",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Trenne freie und aufzulösende Variablen.",
+        "Prüfe die relevante partielle Jacobi-Matrix und differenziere danach die Identität."
+      ],
+      "solution": null,
+      "source": {
+        "asset": "exam-pdfs/ss20.pdf",
+        "file": "klausur1_ss20a.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 7.48
+    },
+    {
+      "id": "ss21-1",
+      "examId": "ss21",
+      "number": 1,
+      "subtask": "alle",
+      "title": "Metrik und Norm: Axiome, Beispiele und induzierte Metrik",
+      "prompt": "Metrik und Norm: Axiome, Beispiele und induzierte Metrik. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": 20,
+      "estimatedMinutes": 25,
+      "topics": [
+        "metrische-raeume"
+      ],
+      "topicLabels": [
+        "Metrische Räume"
+      ],
+      "topicPrimary": "metrische-raeume",
+      "topicSecondary": [],
+      "techniques": [
+        "definition",
+        "beweis",
+        "gegenbeispiel"
+      ],
+      "theoryIds": [
+        "7.2.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "official_solution",
+      "gradingStatus": "source_points_only",
+      "duplicateFamily": "unique-ss21-1",
+      "familyRelation": "unique",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Schreibe zuerst die drei Metrikaxiome aus.",
+        "Prüfe positive Definitheit, Symmetrie und Dreiecksungleichung getrennt."
+      ],
+      "solution": {
+        "status": "official_solution",
+        "kind": "Offizielle Lösung",
+        "asset": "exam-pdfs/loesung-ss21.pdf",
+        "pageStart": 1,
+        "pageEnd": 2,
+        "summary": "Eine offizielle ausgearbeitete Lösung ist im verlinkten Dokument enthalten; ein detaillierter Bewertungsschlüssel liegt nicht vor."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss21.pdf",
+        "file": "Klausur_Analysis II_SS21_Sabatini.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 8.36
+    },
+    {
+      "id": "ss21-2",
+      "examId": "ss21",
+      "number": 2,
+      "subtask": "alle",
+      "title": "Inneres, offene Kugeln, Rand und Kompaktheit konkreter Mengen",
+      "prompt": "Inneres, offene Kugeln, Rand und Kompaktheit konkreter Mengen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 5,
+      "pageEnd": 5,
+      "points": 20,
+      "estimatedMinutes": 25,
+      "topics": [
+        "topologie",
+        "kompaktheit"
+      ],
+      "topicLabels": [
+        "Topologie",
+        "Kompaktheit"
+      ],
+      "topicPrimary": "topologie",
+      "topicSecondary": [
+        "kompaktheit"
+      ],
+      "techniques": [
+        "definition",
+        "beweis",
+        "klassifikation"
+      ],
+      "theoryIds": [
+        "7.3.1",
+        "7.5.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "official_solution",
+      "gradingStatus": "source_points_only",
+      "duplicateFamily": "template-topology-definition-classification",
+      "familyRelation": "theorem_variant",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Arbeite direkt mit offenen Umgebungen oder Kugeln.",
+        "Für Gegenbeispiele sind indiskrete Topologien und Folgen oft besonders effizient."
+      ],
+      "solution": {
+        "status": "official_solution",
+        "kind": "Offizielle Lösung",
+        "asset": "exam-pdfs/loesung-ss21.pdf",
+        "pageStart": 3,
+        "pageEnd": 4,
+        "summary": "Eine offizielle ausgearbeitete Lösung ist im verlinkten Dokument enthalten; ein detaillierter Bewertungsschlüssel liegt nicht vor."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss21.pdf",
+        "file": "Klausur_Analysis II_SS21_Sabatini.pdf",
+        "page": 5,
+        "originalPage": 5
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 7.89
+    },
+    {
+      "id": "ss21-3",
+      "examId": "ss21",
+      "number": 3,
+      "subtask": "alle",
+      "title": "Kritische Punkte einer Polynomfunktion vollständig klassifizieren",
+      "prompt": "Kritische Punkte einer Polynomfunktion vollständig klassifizieren. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 8,
+      "pageEnd": 8,
+      "points": 25,
+      "estimatedMinutes": 31,
+      "topics": [
+        "extrema"
+      ],
+      "topicLabels": [
+        "Extrema"
+      ],
+      "topicPrimary": "extrema",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [
+        "8.6.3"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "official_solution",
+      "gradingStatus": "source_points_only",
+      "duplicateFamily": "template-critical-point-classification",
+      "familyRelation": "computational_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Bestimme zuerst alle inneren kritischen Punkte und vergiss den Rand nicht.",
+        "Klassifiziere mit Hesse-Matrix, geeigneten Kurven oder Lagrange-Bedingungen."
+      ],
+      "solution": {
+        "status": "official_solution",
+        "kind": "Offizielle Lösung",
+        "asset": "exam-pdfs/loesung-ss21.pdf",
+        "pageStart": 5,
+        "pageEnd": 6,
+        "summary": "Eine offizielle ausgearbeitete Lösung ist im verlinkten Dokument enthalten; ein detaillierter Bewertungsschlüssel liegt nicht vor."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss21.pdf",
+        "file": "Klausur_Analysis II_SS21_Sabatini.pdf",
+        "page": 8,
+        "originalPage": 8
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.14
+    },
+    {
+      "id": "ss21-4",
+      "examId": "ss21",
+      "number": 4,
+      "subtask": "alle",
+      "title": "Richtungsableitungen versus totale Differenzierbarkeit",
+      "prompt": "Richtungsableitungen versus totale Differenzierbarkeit. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 11,
+      "pageEnd": 11,
+      "points": 20,
+      "estimatedMinutes": 25,
+      "topics": [
+        "richtungsableitungen",
+        "differenzierbarkeit"
+      ],
+      "topicLabels": [
+        "Richtungsableitungen",
+        "Mehrdimensionale Differenzierbarkeit"
+      ],
+      "topicPrimary": "richtungsableitungen",
+      "topicSecondary": [
+        "differenzierbarkeit"
+      ],
+      "techniques": [
+        "definition",
+        "berechnung",
+        "gegenbeispiel"
+      ],
+      "theoryIds": [
+        "8.2",
+        "8.1.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "official_solution",
+      "gradingStatus": "source_points_only",
+      "duplicateFamily": "template-directional-not-total",
+      "familyRelation": "proof_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Setze die Gerade $h\\mapsto hv$ in die Funktion ein.",
+        "Existenz aller Richtungsableitungen allein beweist noch keine Differenzierbarkeit."
+      ],
+      "solution": {
+        "status": "official_solution",
+        "kind": "Offizielle Lösung",
+        "asset": "exam-pdfs/loesung-ss21.pdf",
+        "pageStart": 7,
+        "pageEnd": 7,
+        "summary": "Eine offizielle ausgearbeitete Lösung ist im verlinkten Dokument enthalten; ein detaillierter Bewertungsschlüssel liegt nicht vor."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss21.pdf",
+        "file": "Klausur_Analysis II_SS21_Sabatini.pdf",
+        "page": 11,
+        "originalPage": 11
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "ss21-5",
+      "examId": "ss21",
+      "number": 5,
+      "subtask": "alle",
+      "title": "Graph als Untermannigfaltigkeit und Tangentialebene",
+      "prompt": "Graph als Untermannigfaltigkeit und Tangentialebene. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 14,
+      "pageEnd": 14,
+      "points": 20,
+      "estimatedMinutes": 25,
+      "topics": [
+        "mannigfaltigkeiten",
+        "differenzierbarkeit"
+      ],
+      "topicLabels": [
+        "Untermannigfaltigkeiten",
+        "Mehrdimensionale Differenzierbarkeit"
+      ],
+      "topicPrimary": "mannigfaltigkeiten",
+      "topicSecondary": [
+        "differenzierbarkeit"
+      ],
+      "techniques": [
+        "beweis",
+        "berechnung"
+      ],
+      "theoryIds": [
+        "8.1.1"
+      ],
+      "currentRelevance": "teilweise",
+      "currentScopeStatus": "unresolved",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "official_solution",
+      "gradingStatus": "source_points_only",
+      "duplicateFamily": "template-manifold-tangent-space",
+      "familyRelation": "proof_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Schreibe die Menge als reguläre Niveaumenge oder als Graph.",
+        "Prüfe den Rang der Ableitung; Singularitäten müssen separat behandelt werden."
+      ],
+      "solution": {
+        "status": "official_solution",
+        "kind": "Offizielle Lösung",
+        "asset": "exam-pdfs/loesung-ss21.pdf",
+        "pageStart": 8,
+        "pageEnd": 9,
+        "summary": "Eine offizielle ausgearbeitete Lösung ist im verlinkten Dokument enthalten; ein detaillierter Bewertungsschlüssel liegt nicht vor."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss21.pdf",
+        "file": "Klausur_Analysis II_SS21_Sabatini.pdf",
+        "page": 14,
+        "originalPage": 14
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aktueller Prüfungsumfang ist wegen eines Konflikts zwischen Skript und Klausurevidenz ungeklärt.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "ss21-6",
+      "examId": "ss21",
+      "number": 6,
+      "subtask": "alle",
+      "title": "Ableitungsformel für implizite Funktionen und Anwendung",
+      "prompt": "Ableitungsformel für implizite Funktionen und Anwendung. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 17,
+      "pageEnd": 17,
+      "points": 20,
+      "estimatedMinutes": 25,
+      "topics": [
+        "implizite-funktionen"
+      ],
+      "topicLabels": [
+        "Implizite Funktionen"
+      ],
+      "topicPrimary": "implizite-funktionen",
+      "topicSecondary": [],
+      "techniques": [
+        "beweis",
+        "berechnung"
+      ],
+      "theoryIds": [
+        "9.3.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "official_solution",
+      "gradingStatus": "source_points_only",
+      "duplicateFamily": "template-implicit-function-derivatives",
+      "familyRelation": "computational_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Trenne freie und aufzulösende Variablen.",
+        "Prüfe die relevante partielle Jacobi-Matrix und differenziere danach die Identität."
+      ],
+      "solution": {
+        "status": "official_solution",
+        "kind": "Offizielle Lösung",
+        "asset": "exam-pdfs/loesung-ss21.pdf",
+        "pageStart": 10,
+        "pageEnd": 11,
+        "summary": "Eine offizielle ausgearbeitete Lösung ist im verlinkten Dokument enthalten; ein detaillierter Bewertungsschlüssel liegt nicht vor."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss21.pdf",
+        "file": "Klausur_Analysis II_SS21_Sabatini.pdf",
+        "page": 17,
+        "originalPage": 17
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 7.48
+    },
+    {
+      "id": "ss21-7",
+      "examId": "ss21",
+      "number": 7,
+      "subtask": "alle",
+      "title": "Lokale Lipschitz-Stetigkeit, Existenz und Variation der Konstanten",
+      "prompt": "Lokale Lipschitz-Stetigkeit, Existenz und Variation der Konstanten. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 20,
+      "pageEnd": 20,
+      "points": 25,
+      "estimatedMinutes": 31,
+      "topics": [
+        "differentialgleichungen"
+      ],
+      "topicLabels": [
+        "Differentialgleichungen"
+      ],
+      "topicPrimary": "differentialgleichungen",
+      "topicSecondary": [],
+      "techniques": [
+        "beweis",
+        "berechnung"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "ausserhalb",
+      "currentScopeStatus": "unresolved",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "official_solution",
+      "gradingStatus": "source_points_only",
+      "duplicateFamily": "template-dgl-existence-uniqueness",
+      "familyRelation": "proof_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Bestimme zuerst den DGL-Typ und das maximale Existenzintervall.",
+        "Trennung, Variation der Konstanten oder charakteristische Gleichung liefern den Rechenweg."
+      ],
+      "solution": {
+        "status": "official_solution",
+        "kind": "Offizielle Lösung",
+        "asset": "exam-pdfs/loesung-ss21.pdf",
+        "pageStart": 12,
+        "pageEnd": 13,
+        "summary": "Eine offizielle ausgearbeitete Lösung ist im verlinkten Dokument enthalten; ein detaillierter Bewertungsschlüssel liegt nicht vor."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss21.pdf",
+        "file": "Klausur_Analysis II_SS21_Sabatini.pdf",
+        "page": 20,
+        "originalPage": 20
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aktueller Prüfungsumfang ist wegen eines Konflikts zwischen Skript und Klausurevidenz ungeklärt.",
+      "priorityScore": 6.97
+    },
+    {
+      "id": "ss21-nach-1",
+      "examId": "ss21-nach",
+      "number": 1,
+      "subtask": "alle",
+      "title": "Gleichmäßiger Grenzwert stetiger Funktionen ist stetig",
+      "prompt": "Gleichmäßiger Grenzwert stetiger Funktionen ist stetig. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": 20,
+      "estimatedMinutes": 25,
+      "topics": [
+        "gleichmaessige-konvergenz",
+        "stetigkeit"
+      ],
+      "topicLabels": [
+        "Gleichmäßige Konvergenz",
+        "Stetigkeit"
+      ],
+      "topicPrimary": "gleichmaessige-konvergenz",
+      "topicSecondary": [
+        "stetigkeit"
+      ],
+      "techniques": [
+        "definition",
+        "beweis"
+      ],
+      "theoryIds": [
+        "6.1",
+        "7.4.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "official_rubric",
+      "gradingStatus": "official_rubric",
+      "duplicateFamily": "unique-ss21-nach-1",
+      "familyRelation": "unique",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Der Index $N$ darf nicht vom Punkt abhängen.",
+        "Suche für Nicht-Gleichmäßigkeit Punkte, die mit $n$ variieren."
+      ],
+      "solution": {
+        "status": "official_rubric",
+        "kind": "Offizielles Bewertungsschema",
+        "asset": "exam-pdfs/loesung-ss21-nach.pdf",
+        "pageStart": 2,
+        "pageEnd": 2,
+        "summary": "Ein offizieller Bewertungsschlüssel ist im verlinkten Dokument enthalten."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss21-nach.pdf",
+        "file": "Nachklausur_Analysis2_SS21_Sabatini.pdf",
+        "page": 2,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 6.94
+    },
+    {
+      "id": "ss21-nach-2",
+      "examId": "ss21-nach",
+      "number": 2,
+      "subtask": "alle",
+      "title": "Cauchy, Vollständigkeit, Banachraum und $C([a,b])$",
+      "prompt": "Cauchy, Vollständigkeit, Banachraum und $C([a,b])$. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 5,
+      "pageEnd": 5,
+      "points": 20,
+      "estimatedMinutes": 25,
+      "topics": [
+        "vollstaendigkeit",
+        "metrische-raeume"
+      ],
+      "topicLabels": [
+        "Vollständigkeit",
+        "Metrische Räume"
+      ],
+      "topicPrimary": "vollstaendigkeit",
+      "topicSecondary": [
+        "metrische-raeume"
+      ],
+      "techniques": [
+        "definition",
+        "beweis"
+      ],
+      "theoryIds": [
+        "7.2.9",
+        "7.2.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "official_rubric",
+      "gradingStatus": "official_rubric",
+      "duplicateFamily": "template-completeness-proof",
+      "familyRelation": "proof_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Beginne mit einer beliebigen Cauchy-Folge.",
+        "Konstruiere den punktweisen Grenzwert und zeige anschließend Konvergenz in der gegebenen Norm."
+      ],
+      "solution": {
+        "status": "official_rubric",
+        "kind": "Offizielles Bewertungsschema",
+        "asset": "exam-pdfs/loesung-ss21-nach.pdf",
+        "pageStart": 3,
+        "pageEnd": 4,
+        "summary": "Ein offizieller Bewertungsschlüssel ist im verlinkten Dokument enthalten."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss21-nach.pdf",
+        "file": "Nachklausur_Analysis2_SS21_Sabatini.pdf",
+        "page": 5,
+        "originalPage": 5
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 8.36
+    },
+    {
+      "id": "ss21-nach-3",
+      "examId": "ss21-nach",
+      "number": 3,
+      "subtask": "alle",
+      "title": "Globale Extrema einer Funktion auf einer Ellipse",
+      "prompt": "Globale Extrema einer Funktion auf einer Ellipse. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 8,
+      "pageEnd": 8,
+      "points": 25,
+      "estimatedMinutes": 31,
+      "topics": [
+        "extrema",
+        "kompaktheit",
+        "lagrange"
+      ],
+      "topicLabels": [
+        "Extrema",
+        "Kompaktheit",
+        "Lagrange-Multiplikatoren"
+      ],
+      "topicPrimary": "extrema",
+      "topicSecondary": [
+        "kompaktheit",
+        "lagrange"
+      ],
+      "techniques": [
+        "berechnung",
+        "skizze",
+        "beweis"
+      ],
+      "theoryIds": [
+        "8.6.3",
+        "7.5.1",
+        "9.4.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "official_rubric",
+      "gradingStatus": "official_rubric",
+      "duplicateFamily": "template-lagrange-constrained-extrema",
+      "familyRelation": "computational_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Bestimme zuerst alle inneren kritischen Punkte und vergiss den Rand nicht.",
+        "Klassifiziere mit Hesse-Matrix, geeigneten Kurven oder Lagrange-Bedingungen."
+      ],
+      "solution": {
+        "status": "official_rubric",
+        "kind": "Offizielles Bewertungsschema",
+        "asset": "exam-pdfs/loesung-ss21-nach.pdf",
+        "pageStart": 5,
+        "pageEnd": 7,
+        "summary": "Ein offizieller Bewertungsschlüssel ist im verlinkten Dokument enthalten."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss21-nach.pdf",
+        "file": "Nachklausur_Analysis2_SS21_Sabatini.pdf",
+        "page": 8,
+        "originalPage": 8
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.14
+    },
+    {
+      "id": "ss21-nach-4",
+      "examId": "ss21-nach",
+      "number": 4,
+      "subtask": "alle",
+      "title": "Mehrdimensionale Kettenregel anwenden",
+      "prompt": "Mehrdimensionale Kettenregel anwenden. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 11,
+      "pageEnd": 11,
+      "points": 20,
+      "estimatedMinutes": 25,
+      "topics": [
+        "differenzierbarkeit"
+      ],
+      "topicLabels": [
+        "Mehrdimensionale Differenzierbarkeit"
+      ],
+      "topicPrimary": "differenzierbarkeit",
+      "topicSecondary": [],
+      "techniques": [
+        "satzwiedergabe",
+        "berechnung"
+      ],
+      "theoryIds": [
+        "8.1.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "official_rubric",
+      "gradingStatus": "official_rubric",
+      "duplicateFamily": "unique-ss21-nach-4",
+      "familyRelation": "unique",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Unterscheide partielle, Richtungs- und totale Differenzierbarkeit.",
+        "Für totale Differenzierbarkeit muss der Restterm nach Division durch die Norm gegen null gehen."
+      ],
+      "solution": {
+        "status": "official_rubric",
+        "kind": "Offizielles Bewertungsschema",
+        "asset": "exam-pdfs/loesung-ss21-nach.pdf",
+        "pageStart": 8,
+        "pageEnd": 8,
+        "summary": "Ein offizieller Bewertungsschlüssel ist im verlinkten Dokument enthalten."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss21-nach.pdf",
+        "file": "Nachklausur_Analysis2_SS21_Sabatini.pdf",
+        "page": 11,
+        "originalPage": 11
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "ss21-nach-5",
+      "examId": "ss21-nach",
+      "number": 5,
+      "subtask": "alle",
+      "title": "Lokale und globale Invertierbarkeit einer Exponential-Polarabbildung",
+      "prompt": "Lokale und globale Invertierbarkeit einer Exponential-Polarabbildung. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 14,
+      "pageEnd": 14,
+      "points": 20,
+      "estimatedMinutes": 25,
+      "topics": [
+        "umkehrsatz"
+      ],
+      "topicLabels": [
+        "Umkehrsatz"
+      ],
+      "topicPrimary": "umkehrsatz",
+      "topicSecondary": [],
+      "techniques": [
+        "beweis",
+        "berechnung"
+      ],
+      "theoryIds": [
+        "9.2.5"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "official_rubric",
+      "gradingStatus": "official_rubric",
+      "duplicateFamily": "template-inverse-local-invertibility",
+      "familyRelation": "theorem_variant",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Berechne die Jacobi-Matrix und ihre Determinante.",
+        "Der Satz liefert lokale, nicht automatisch globale Invertierbarkeit."
+      ],
+      "solution": {
+        "status": "official_rubric",
+        "kind": "Offizielles Bewertungsschema",
+        "asset": "exam-pdfs/loesung-ss21-nach.pdf",
+        "pageStart": 9,
+        "pageEnd": 9,
+        "summary": "Ein offizieller Bewertungsschlüssel ist im verlinkten Dokument enthalten."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss21-nach.pdf",
+        "file": "Nachklausur_Analysis2_SS21_Sabatini.pdf",
+        "page": 14,
+        "originalPage": 14
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 6.26
+    },
+    {
+      "id": "ss21-nach-6",
+      "examId": "ss21-nach",
+      "number": 6,
+      "subtask": "alle",
+      "title": "Kegel auf Mannigfaltigkeit prüfen und Tangentialebene bestimmen",
+      "prompt": "Kegel auf Mannigfaltigkeit prüfen und Tangentialebene bestimmen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 17,
+      "pageEnd": 17,
+      "points": 20,
+      "estimatedMinutes": 25,
+      "topics": [
+        "mannigfaltigkeiten",
+        "implizite-funktionen"
+      ],
+      "topicLabels": [
+        "Untermannigfaltigkeiten",
+        "Implizite Funktionen"
+      ],
+      "topicPrimary": "mannigfaltigkeiten",
+      "topicSecondary": [
+        "implizite-funktionen"
+      ],
+      "techniques": [
+        "beweis",
+        "berechnung"
+      ],
+      "theoryIds": [
+        "9.3.1"
+      ],
+      "currentRelevance": "teilweise",
+      "currentScopeStatus": "unresolved",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "official_rubric",
+      "gradingStatus": "official_rubric",
+      "duplicateFamily": "template-manifold-tangent-space",
+      "familyRelation": "proof_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Schreibe die Menge als reguläre Niveaumenge oder als Graph.",
+        "Prüfe den Rang der Ableitung; Singularitäten müssen separat behandelt werden."
+      ],
+      "solution": {
+        "status": "official_rubric",
+        "kind": "Offizielles Bewertungsschema",
+        "asset": "exam-pdfs/loesung-ss21-nach.pdf",
+        "pageStart": 10,
+        "pageEnd": 11,
+        "summary": "Ein offizieller Bewertungsschlüssel ist im verlinkten Dokument enthalten."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss21-nach.pdf",
+        "file": "Nachklausur_Analysis2_SS21_Sabatini.pdf",
+        "page": 17,
+        "originalPage": 17
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aktueller Prüfungsumfang ist wegen eines Konflikts zwischen Skript und Klausurevidenz ungeklärt.",
+      "priorityScore": 7.48
+    },
+    {
+      "id": "ss21-nach-7",
+      "examId": "ss21-nach",
+      "number": 7,
+      "subtask": "alle",
+      "title": "Existenz, Eindeutigkeit und Lösungen zweier Anfangswertprobleme",
+      "prompt": "Existenz, Eindeutigkeit und Lösungen zweier Anfangswertprobleme. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 20,
+      "pageEnd": 20,
+      "points": 25,
+      "estimatedMinutes": 31,
+      "topics": [
+        "differentialgleichungen"
+      ],
+      "topicLabels": [
+        "Differentialgleichungen"
+      ],
+      "topicPrimary": "differentialgleichungen",
+      "topicSecondary": [],
+      "techniques": [
+        "beweis",
+        "berechnung"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "ausserhalb",
+      "currentScopeStatus": "unresolved",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "official_rubric",
+      "gradingStatus": "official_rubric",
+      "duplicateFamily": "template-dgl-existence-uniqueness",
+      "familyRelation": "proof_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Bestimme zuerst den DGL-Typ und das maximale Existenzintervall.",
+        "Trennung, Variation der Konstanten oder charakteristische Gleichung liefern den Rechenweg."
+      ],
+      "solution": {
+        "status": "official_rubric",
+        "kind": "Offizielles Bewertungsschema",
+        "asset": "exam-pdfs/loesung-ss21-nach.pdf",
+        "pageStart": 12,
+        "pageEnd": 13,
+        "summary": "Ein offizieller Bewertungsschlüssel ist im verlinkten Dokument enthalten."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss21-nach.pdf",
+        "file": "Nachklausur_Analysis2_SS21_Sabatini.pdf",
+        "page": 20,
+        "originalPage": 20
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aktueller Prüfungsumfang ist wegen eines Konflikts zwischen Skript und Klausurevidenz ungeklärt.",
+      "priorityScore": 6.97
+    },
+    {
+      "id": "ss25-1",
+      "examId": "ss25",
+      "number": 1,
+      "subtask": "alle",
+      "title": "Folgen in topologischen Räumen, Hausdorff-Eindeutigkeit und metrische Topologien",
+      "prompt": "Folgen in topologischen Räumen, Hausdorff-Eindeutigkeit und metrische Topologien. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "points": 20,
+      "estimatedMinutes": 25,
+      "topics": [
+        "topologie",
+        "metrische-raeume"
+      ],
+      "topicLabels": [
+        "Topologie",
+        "Metrische Räume"
+      ],
+      "topicPrimary": "topologie",
+      "topicSecondary": [
+        "metrische-raeume"
+      ],
+      "techniques": [
+        "definition",
+        "beweis",
+        "gegenbeispiel"
+      ],
+      "theoryIds": [
+        "7.3.1",
+        "7.2.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "official_solution",
+      "gradingStatus": "source_points_only",
+      "duplicateFamily": "template-topology-definition-classification",
+      "familyRelation": "theorem_variant",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Arbeite direkt mit offenen Umgebungen oder Kugeln.",
+        "Für Gegenbeispiele sind indiskrete Topologien und Folgen oft besonders effizient."
+      ],
+      "solution": {
+        "status": "official_solution",
+        "kind": "Offizielle Lösung",
+        "asset": "exam-pdfs/ss25-loesungen.pdf",
+        "pageStart": 2,
+        "pageEnd": 2,
+        "summary": "Eine offizielle ausgearbeitete Lösung ist im verlinkten Dokument enthalten; ein detaillierter Bewertungsschlüssel liegt nicht vor."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss25-aufgaben.pdf",
+        "file": "Klausur Analysis II-SS25_Loesungen.pdf",
+        "page": 1,
+        "originalPage": 2
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 8.36
+    },
+    {
+      "id": "ss25-2",
+      "examId": "ss25",
+      "number": 2,
+      "subtask": "alle",
+      "title": "Alle Richtungsableitungen existieren, aber keine totale Differenzierbarkeit",
+      "prompt": "Alle Richtungsableitungen existieren, aber keine totale Differenzierbarkeit. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 3,
+      "pageEnd": 3,
+      "points": 15,
+      "estimatedMinutes": 19,
+      "topics": [
+        "richtungsableitungen",
+        "differenzierbarkeit"
+      ],
+      "topicLabels": [
+        "Richtungsableitungen",
+        "Mehrdimensionale Differenzierbarkeit"
+      ],
+      "topicPrimary": "richtungsableitungen",
+      "topicSecondary": [
+        "differenzierbarkeit"
+      ],
+      "techniques": [
+        "berechnung",
+        "gegenbeispiel"
+      ],
+      "theoryIds": [
+        "8.2",
+        "8.1.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "official_solution",
+      "gradingStatus": "source_points_only",
+      "duplicateFamily": "template-directional-not-total",
+      "familyRelation": "proof_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Setze die Gerade $h\\mapsto hv$ in die Funktion ein.",
+        "Existenz aller Richtungsableitungen allein beweist noch keine Differenzierbarkeit."
+      ],
+      "solution": {
+        "status": "official_solution",
+        "kind": "Offizielle Lösung",
+        "asset": "exam-pdfs/ss25-loesungen.pdf",
+        "pageStart": 3,
+        "pageEnd": 3,
+        "summary": "Eine offizielle ausgearbeitete Lösung ist im verlinkten Dokument enthalten; ein detaillierter Bewertungsschlüssel liegt nicht vor."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss25-aufgaben.pdf",
+        "file": "Klausur Analysis II-SS25_Loesungen.pdf",
+        "page": 2,
+        "originalPage": 3
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "ss25-3",
+      "examId": "ss25",
+      "number": 3,
+      "subtask": "alle",
+      "title": "Verschwindender Gradient auf einem Ball impliziert Konstanz",
+      "prompt": "Verschwindender Gradient auf einem Ball impliziert Konstanz. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 4,
+      "pageEnd": 4,
+      "points": 15,
+      "estimatedMinutes": 19,
+      "topics": [
+        "differenzierbarkeit"
+      ],
+      "topicLabels": [
+        "Mehrdimensionale Differenzierbarkeit"
+      ],
+      "topicPrimary": "differenzierbarkeit",
+      "topicSecondary": [],
+      "techniques": [
+        "beweis",
+        "satzanwendung"
+      ],
+      "theoryIds": [
+        "8.1.1"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "proof",
+      "officialSolutionStatus": "official_solution",
+      "gradingStatus": "source_points_only",
+      "duplicateFamily": "unique-ss25-3",
+      "familyRelation": "unique",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Unterscheide partielle, Richtungs- und totale Differenzierbarkeit.",
+        "Für totale Differenzierbarkeit muss der Restterm nach Division durch die Norm gegen null gehen."
+      ],
+      "solution": {
+        "status": "official_solution",
+        "kind": "Offizielle Lösung",
+        "asset": "exam-pdfs/ss25-loesungen.pdf",
+        "pageStart": 4,
+        "pageEnd": 4,
+        "summary": "Eine offizielle ausgearbeitete Lösung ist im verlinkten Dokument enthalten; ein detaillierter Bewertungsschlüssel liegt nicht vor."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss25-aufgaben.pdf",
+        "file": "Klausur Analysis II-SS25_Loesungen.pdf",
+        "page": 3,
+        "originalPage": 4
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.49
+    },
+    {
+      "id": "ss25-4",
+      "examId": "ss25",
+      "number": 4,
+      "subtask": "alle",
+      "title": "Kritische Punkte einer Polynomfunktion klassifizieren",
+      "prompt": "Kritische Punkte einer Polynomfunktion klassifizieren. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 5,
+      "pageEnd": 5,
+      "points": 15,
+      "estimatedMinutes": 19,
+      "topics": [
+        "extrema"
+      ],
+      "topicLabels": [
+        "Extrema"
+      ],
+      "topicPrimary": "extrema",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [
+        "8.6.3"
+      ],
+      "currentRelevance": "hoch",
+      "currentScopeStatus": "confirmed_current",
+      "scriptCoverage": "covered",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "official_solution",
+      "gradingStatus": "source_points_only",
+      "duplicateFamily": "template-critical-point-classification",
+      "familyRelation": "computational_template",
+      "difficulty": "mittel",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Bestimme zuerst alle inneren kritischen Punkte und vergiss den Rand nicht.",
+        "Klassifiziere mit Hesse-Matrix, geeigneten Kurven oder Lagrange-Bedingungen."
+      ],
+      "solution": {
+        "status": "official_solution",
+        "kind": "Offizielle Lösung",
+        "asset": "exam-pdfs/ss25-loesungen.pdf",
+        "pageStart": 5,
+        "pageEnd": 5,
+        "summary": "Eine offizielle ausgearbeitete Lösung ist im verlinkten Dokument enthalten; ein detaillierter Bewertungsschlüssel liegt nicht vor."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss25-aufgaben.pdf",
+        "file": "Klausur Analysis II-SS25_Loesungen.pdf",
+        "page": 4,
+        "originalPage": 5
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben.",
+      "priorityScore": 9.14
+    },
+    {
+      "id": "ss25-5",
+      "examId": "ss25",
+      "number": 5,
+      "subtask": "alle",
+      "title": "Graph als Untermannigfaltigkeit und globaler Minimalabstand",
+      "prompt": "Graph als Untermannigfaltigkeit und globaler Minimalabstand. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 6,
+      "pageEnd": 6,
+      "points": 15,
+      "estimatedMinutes": 19,
+      "topics": [
+        "mannigfaltigkeiten",
+        "extrema"
+      ],
+      "topicLabels": [
+        "Untermannigfaltigkeiten",
+        "Extrema"
+      ],
+      "topicPrimary": "mannigfaltigkeiten",
+      "topicSecondary": [
+        "extrema"
+      ],
+      "techniques": [
+        "beweis",
+        "berechnung"
+      ],
+      "theoryIds": [
+        "8.6.3"
+      ],
+      "currentRelevance": "teilweise",
+      "currentScopeStatus": "unresolved",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "official_solution",
+      "gradingStatus": "source_points_only",
+      "duplicateFamily": "template-manifold-tangent-space",
+      "familyRelation": "proof_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Schreibe die Menge als reguläre Niveaumenge oder als Graph.",
+        "Prüfe den Rang der Ableitung; Singularitäten müssen separat behandelt werden."
+      ],
+      "solution": {
+        "status": "official_solution",
+        "kind": "Offizielle Lösung",
+        "asset": "exam-pdfs/ss25-loesungen.pdf",
+        "pageStart": 6,
+        "pageEnd": 7,
+        "summary": "Eine offizielle ausgearbeitete Lösung ist im verlinkten Dokument enthalten; ein detaillierter Bewertungsschlüssel liegt nicht vor."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss25-aufgaben.pdf",
+        "file": "Klausur Analysis II-SS25_Loesungen.pdf",
+        "page": 5,
+        "originalPage": 6
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aktueller Prüfungsumfang ist wegen eines Konflikts zwischen Skript und Klausurevidenz ungeklärt.",
+      "priorityScore": 9.14
+    },
+    {
+      "id": "ss25-6",
+      "examId": "ss25",
+      "number": 6,
+      "subtask": "alle",
+      "title": "Zwei Anfangswertprobleme samt maximalem Definitionsbereich lösen",
+      "prompt": "Zwei Anfangswertprobleme samt maximalem Definitionsbereich lösen. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 8,
+      "pageEnd": 8,
+      "points": 20,
+      "estimatedMinutes": 25,
+      "topics": [
+        "differentialgleichungen"
+      ],
+      "topicLabels": [
+        "Differentialgleichungen"
+      ],
+      "topicPrimary": "differentialgleichungen",
+      "topicSecondary": [],
+      "techniques": [
+        "berechnung"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "ausserhalb",
+      "currentScopeStatus": "unresolved",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "computation",
+      "officialSolutionStatus": "official_solution",
+      "gradingStatus": "source_points_only",
+      "duplicateFamily": "template-dgl-separable-ivp",
+      "familyRelation": "computational_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Bestimme zuerst den DGL-Typ und das maximale Existenzintervall.",
+        "Trennung, Variation der Konstanten oder charakteristische Gleichung liefern den Rechenweg."
+      ],
+      "solution": {
+        "status": "official_solution",
+        "kind": "Offizielle Lösung",
+        "asset": "exam-pdfs/ss25-loesungen.pdf",
+        "pageStart": 8,
+        "pageEnd": 9,
+        "summary": "Eine offizielle ausgearbeitete Lösung ist im verlinkten Dokument enthalten; ein detaillierter Bewertungsschlüssel liegt nicht vor."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss25-aufgaben.pdf",
+        "file": "Klausur Analysis II-SS25_Loesungen.pdf",
+        "page": 6,
+        "originalPage": 8
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aktueller Prüfungsumfang ist wegen eines Konflikts zwischen Skript und Klausurevidenz ungeklärt.",
+      "priorityScore": 6.97
+    },
+    {
+      "id": "ss25-7",
+      "examId": "ss25",
+      "number": 7,
+      "subtask": "alle",
+      "title": "Existenz und Berechnung zweier Doppelintegrale",
+      "prompt": "Existenz und Berechnung zweier Doppelintegrale. Bearbeite die vollständige Aufgabenstellung im verlinkten Original-PDF.",
+      "pageStart": 10,
+      "pageEnd": 10,
+      "points": 20,
+      "estimatedMinutes": 25,
+      "topics": [
+        "mehrdimensionale-integrale"
+      ],
+      "topicLabels": [
+        "Mehrdimensionale Integrale"
+      ],
+      "topicPrimary": "mehrdimensionale-integrale",
+      "topicSecondary": [],
+      "techniques": [
+        "beweis",
+        "berechnung"
+      ],
+      "theoryIds": [],
+      "currentRelevance": "ausserhalb",
+      "currentScopeStatus": "unresolved",
+      "scriptCoverage": "missing",
+      "proofOrComputation": "mixed",
+      "officialSolutionStatus": "official_solution",
+      "gradingStatus": "source_points_only",
+      "duplicateFamily": "template-multidimensional-integral",
+      "familyRelation": "computational_template",
+      "difficulty": "hoch",
+      "sourceConfidence": "hoch",
+      "hints": [
+        "Formuliere zuerst Voraussetzungen und Ziel der Aufgabe.",
+        "Zerlege die Aufgabe in einen Satz- oder Definitionsschritt und einen Rechenschritt."
+      ],
+      "solution": {
+        "status": "official_solution",
+        "kind": "Offizielle Lösung",
+        "asset": "exam-pdfs/ss25-loesungen.pdf",
+        "pageStart": 10,
+        "pageEnd": 11,
+        "summary": "Eine offizielle ausgearbeitete Lösung ist im verlinkten Dokument enthalten; ein detaillierter Bewertungsschlüssel liegt nicht vor."
+      },
+      "source": {
+        "asset": "exam-pdfs/ss25-aufgaben.pdf",
+        "file": "Klausur Analysis II-SS25_Loesungen.pdf",
+        "page": 7,
+        "originalPage": 10
+      },
+      "notes": "Eintrag bündelt die Hauptaufgabe einschließlich ihrer Teilaufgaben. Aktueller Prüfungsumfang ist wegen eines Konflikts zwischen Skript und Klausurevidenz ungeklärt.",
+      "priorityScore": 4.47
+    }
+  ],
+  "topicLabels": {
+    "folgen": "Folgen",
+    "reihen": "Reihen und Potenzreihen",
+    "gleichmaessige-konvergenz": "Gleichmäßige Konvergenz",
+    "integralrechnung": "Integralrechnung",
+    "metrische-raeume": "Metrische Räume",
+    "vollstaendigkeit": "Vollständigkeit",
+    "topologie": "Topologie",
+    "stetigkeit": "Stetigkeit",
+    "kompaktheit": "Kompaktheit",
+    "zusammenhang": "Zusammenhang",
+    "differenzierbarkeit": "Mehrdimensionale Differenzierbarkeit",
+    "richtungsableitungen": "Richtungsableitungen",
+    "taylor": "Taylorentwicklung",
+    "extrema": "Extrema",
+    "banach-fixpunkt": "Banachscher Fixpunktsatz",
+    "umkehrsatz": "Umkehrsatz",
+    "implizite-funktionen": "Implizite Funktionen",
+    "lagrange": "Lagrange-Multiplikatoren",
+    "komplexe-zahlen": "Komplexe Zahlen",
+    "uneigentliche-integrale": "Uneigentliche Integrale",
+    "kurven": "Kurven und Bogenlänge",
+    "differentialgleichungen": "Differentialgleichungen",
+    "dynamische-systeme": "Dynamische Systeme",
+    "mehrdimensionale-integrale": "Mehrdimensionale Integrale",
+    "mannigfaltigkeiten": "Untermannigfaltigkeiten",
+    "analysis-1": "Analysis-I-Wiederholung",
+    "unsicher": "Unvollständig überlieferte Aufgabe"
+  },
+  "sourceAudit": [
+    {
+      "file": "Ana2-SS18.pdf",
+      "role": "Klausur",
+      "pages": 6,
+      "bytes": 1328831,
+      "sha256": "473c2dc13f10d181e3336061de77ee1b7ee947728a204589a6a827faf5bc1c7a",
+      "textCharacters": 0,
+      "hasUsableTextLayer": false,
+      "asset": "exam-pdfs/ss18.pdf"
+    },
+    {
+      "file": "AnaII_Geiges_03.pdf",
+      "role": "Klausur",
+      "pages": 2,
+      "bytes": 1739203,
+      "sha256": "85c711b54cff1f3a083ff44b728c415aa28db884feb56919d0cd83fb25ece8cd",
+      "textCharacters": 0,
+      "hasUsableTextLayer": false,
+      "asset": "exam-pdfs/geiges03.pdf"
+    },
+    {
+      "file": "AnaII_Geiges_15_1.pdf",
+      "role": "Klausur",
+      "pages": 2,
+      "bytes": 109766,
+      "sha256": "dc0d46d46c06a67655e21aa75dfd5d49922e0b6801868c2329ff91611b985319",
+      "textCharacters": 2056,
+      "hasUsableTextLayer": true,
+      "asset": "exam-pdfs/geiges15.pdf"
+    },
+    {
+      "file": "AnaII_Marinescu_08.pdf",
+      "role": "Klausur",
+      "pages": 2,
+      "bytes": 416844,
+      "sha256": "4ecb1b5c684507d2e4e9e20f775f927e7c98bdf64e95ec6065e02581978f1008",
+      "textCharacters": 1557,
+      "hasUsableTextLayer": true,
+      "asset": "exam-pdfs/marinescu08.pdf"
+    },
+    {
+      "file": "AnaII_Sweers_10_3.pdf",
+      "role": "Klausur",
+      "pages": 2,
+      "bytes": 148867,
+      "sha256": "2e28ec3cdd87d7e701d59feb2c2395d1383f1738cf9df06556fdb8c3b343c36a",
+      "textCharacters": 2872,
+      "hasUsableTextLayer": true,
+      "asset": "exam-pdfs/sweers10-mix.pdf"
+    },
+    {
+      "file": "AnaII_Sweers_10_4.pdf",
+      "role": "Klausur",
+      "pages": 3,
+      "bytes": 313698,
+      "sha256": "d71d5225a0baefa313a15427bad2f09757959015fc4df67d4f124cb81ca86f07",
+      "textCharacters": 3070,
+      "hasUsableTextLayer": true,
+      "asset": "exam-pdfs/sweers10.pdf"
+    },
+    {
+      "file": "AnaII_Sweers_14_1.pdf",
+      "role": "Klausur",
+      "pages": 2,
+      "bytes": 347105,
+      "sha256": "9fdfe357f0c4556fb7058437246251cb47d5bf10419296fbb73709b9748b58c3",
+      "textCharacters": 1647,
+      "hasUsableTextLayer": true,
+      "asset": "exam-pdfs/sweers14-1.pdf"
+    },
+    {
+      "file": "AnaII_Sweers_14_2.pdf",
+      "role": "Klausur",
+      "pages": 8,
+      "bytes": 1290470,
+      "sha256": "c37910186fe54da093828ca90408e3bde6d29454229ca9fff86ebbcf0ae2b688",
+      "textCharacters": 1623,
+      "hasUsableTextLayer": true,
+      "asset": "exam-pdfs/sweers14-2.pdf"
+    },
+    {
+      "file": "AnaII_Thorbergsson_13.pdf",
+      "role": "Klausur",
+      "pages": 1,
+      "bytes": 105127,
+      "sha256": "50ce25b2884072759027df19ce54463769d62a77917d4a2f08773a5263d348a3",
+      "textCharacters": 837,
+      "hasUsableTextLayer": true,
+      "asset": "exam-pdfs/thorbergsson13.pdf"
+    },
+    {
+      "file": "klausur1_ss20a.pdf",
+      "role": "Klausur",
+      "pages": 2,
+      "bytes": 95549,
+      "sha256": "a9480e50ac2a3a1e279e234eb08dade1ce26f4b79531a5542a75e543873948c9",
+      "textCharacters": 1489,
+      "hasUsableTextLayer": true,
+      "asset": "exam-pdfs/ss20.pdf"
+    },
+    {
+      "file": "Klausur_Analysis II_SS21_Sabatini.pdf",
+      "role": "Klausur",
+      "pages": 22,
+      "bytes": 233108,
+      "sha256": "0ac6798d9152e33b68c4cd00c2dc2331c5f4f2937e5945b6ed01dd2a89fa241e",
+      "textCharacters": 5596,
+      "hasUsableTextLayer": true,
+      "asset": "exam-pdfs/ss21.pdf"
+    },
+    {
+      "file": "Nachklausur_Analysis2_SS21_Sabatini.pdf",
+      "role": "Klausur",
+      "pages": 22,
+      "bytes": 228861,
+      "sha256": "0d01e95f5bb0140c4794f3d5c9be3a0903134399a77a3e7665199ce393858cb4",
+      "textCharacters": 4759,
+      "hasUsableTextLayer": true,
+      "asset": "exam-pdfs/ss21-nach.pdf"
+    },
+    {
+      "file": "Klausur Analysis II-SS25_Loesungen.pdf",
+      "role": "Klausur",
+      "pages": 11,
+      "bytes": 240977,
+      "sha256": "83dbb2a98e993674efe67ac4318fcb440e465a6c2a3cab9bff9ee7bac1ccc4f4",
+      "textCharacters": 11089,
+      "hasUsableTextLayer": true,
+      "asset": "exam-pdfs/ss25-aufgaben.pdf",
+      "packagedPages": 7,
+      "alternateAssets": [
+        "exam-pdfs/ss25-loesungen.pdf"
+      ]
+    },
+    {
+      "file": "Lösungsvorschlag Klausur Analysis II-SS21.pdf",
+      "role": "Lösung",
+      "pages": 13,
+      "bytes": 188804,
+      "sha256": "3b25398f3b559044a9f0b4d0cbf424c06091ed40ea2ebce84321421d9ee1df0e",
+      "textCharacters": 16821,
+      "hasUsableTextLayer": true,
+      "asset": "exam-pdfs/loesung-ss21.pdf"
+    },
+    {
+      "file": "Lösungsvorschlag Nachklausur Analysis II-SS21.pdf",
+      "role": "Lösung",
+      "pages": 13,
+      "bytes": 437114,
+      "sha256": "035cc09f73cd9e7e39bfbcf1651199a7234116d83a2eb241db2e40819b6b9307",
+      "textCharacters": 16681,
+      "hasUsableTextLayer": true,
+      "asset": "exam-pdfs/loesung-ss21-nach.pdf"
+    },
+    {
+      "file": "Ana2 Altklausur.pdf",
+      "role": "Sammelarchiv",
+      "pages": 111,
+      "bytes": 7041745,
+      "sha256": "5389dec82ffd600a3ff7ff870317f9573f1fe896da8b6c0928e1016634f996d9",
+      "textCharacters": 70097,
+      "hasUsableTextLayer": true,
+      "asset": null,
+      "notes": "Enthält Duplikate der einzeln inventarisierten Klausuren und Lösungen."
+    }
+  ],
+  "topicWeighting": [
+    {
+      "topic": "differenzierbarkeit",
+      "label": "Mehrdimensionale Differenzierbarkeit",
+      "examCount": 12,
+      "examIds": [
+        "ss25",
+        "ss21",
+        "ss21-nach",
+        "ss18",
+        "geiges15",
+        "sweers14-1",
+        "sweers14-2",
+        "thorbergsson13",
+        "sweers10",
+        "sweers10-mix",
+        "marinescu08",
+        "geiges03"
+      ],
+      "rawTaskCount": 20,
+      "uniqueTaskFamilyCount": 10,
+      "totalAllocatedPoints": 93.67,
+      "knownPointTaskExposure": 149,
+      "knownPointTaskCount": 11,
+      "averagePointsPerKnownAppearance": 13.55,
+      "mostRecentAppearance": "SS 2025",
+      "mostRecentYear": 2025,
+      "recentExamIds": [
+        "ss25",
+        "ss21-nach",
+        "ss21"
+      ],
+      "recentThreeCount": 3,
+      "officialSolutionCount": 5,
+      "officialRubricCount": 1,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 0.865,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 15,
+        "examFrequency": 15,
+        "uniqueFamilies": 15.0,
+        "pointWeight": 9.37,
+        "recentThree": 10.0,
+        "officialSolutions": 1.25,
+        "sourceConfidence": 4.33,
+        "exerciseEvidence": null
+      },
+      "weightScore": 94.94,
+      "priorityGroup": "A"
+    },
+    {
+      "topic": "extrema",
+      "label": "Extrema",
+      "examCount": 12,
+      "examIds": [
+        "ss25",
+        "ss21",
+        "ss21-nach",
+        "ss20",
+        "ss18",
+        "geiges15",
+        "sweers14-1",
+        "sweers14-2",
+        "thorbergsson13",
+        "sweers10",
+        "sweers10-mix",
+        "geiges03"
+      ],
+      "rawTaskCount": 14,
+      "uniqueTaskFamilyCount": 8,
+      "totalAllocatedPoints": 83.83,
+      "knownPointTaskExposure": 116,
+      "knownPointTaskCount": 8,
+      "averagePointsPerKnownAppearance": 14.5,
+      "mostRecentAppearance": "SS 2025",
+      "mostRecentYear": 2025,
+      "recentExamIds": [
+        "ss25",
+        "ss21-nach",
+        "ss21"
+      ],
+      "recentThreeCount": 3,
+      "officialSolutionCount": 4,
+      "officialRubricCount": 1,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 0.914,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 15,
+        "examFrequency": 15,
+        "uniqueFamilies": 12.0,
+        "pointWeight": 8.38,
+        "recentThree": 10.0,
+        "officialSolutions": 1.43,
+        "sourceConfidence": 4.57,
+        "exerciseEvidence": null
+      },
+      "weightScore": 91.38,
+      "priorityGroup": "A"
+    },
+    {
+      "topic": "metrische-raeume",
+      "label": "Metrische Räume",
+      "examCount": 6,
+      "examIds": [
+        "ss25",
+        "ss21",
+        "ss21-nach",
+        "thorbergsson13",
+        "marinescu08",
+        "geiges03"
+      ],
+      "rawTaskCount": 6,
+      "uniqueTaskFamilyCount": 5,
+      "totalAllocatedPoints": 46.17,
+      "knownPointTaskExposure": 75,
+      "knownPointTaskCount": 5,
+      "averagePointsPerKnownAppearance": 15.0,
+      "mostRecentAppearance": "SS 2025",
+      "mostRecentYear": 2025,
+      "recentExamIds": [
+        "ss25",
+        "ss21-nach",
+        "ss21"
+      ],
+      "recentThreeCount": 3,
+      "officialSolutionCount": 3,
+      "officialRubricCount": 1,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 0.8,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 15,
+        "examFrequency": 15,
+        "uniqueFamilies": 7.5,
+        "pointWeight": 4.62,
+        "recentThree": 10.0,
+        "officialSolutions": 2.5,
+        "sourceConfidence": 4.0,
+        "exerciseEvidence": null
+      },
+      "weightScore": 83.62,
+      "priorityGroup": "A"
+    },
+    {
+      "topic": "kompaktheit",
+      "label": "Kompaktheit",
+      "examCount": 8,
+      "examIds": [
+        "ss21",
+        "ss21-nach",
+        "ss20",
+        "ss18",
+        "sweers10",
+        "sweers10-mix",
+        "marinescu08",
+        "geiges03"
+      ],
+      "rawTaskCount": 9,
+      "uniqueTaskFamilyCount": 7,
+      "totalAllocatedPoints": 37.0,
+      "knownPointTaskExposure": 91,
+      "knownPointTaskCount": 7,
+      "averagePointsPerKnownAppearance": 13.0,
+      "mostRecentAppearance": "SS 2021",
+      "mostRecentYear": 2021,
+      "recentExamIds": [
+        "ss21-nach",
+        "ss21"
+      ],
+      "recentThreeCount": 2,
+      "officialSolutionCount": 2,
+      "officialRubricCount": 1,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 0.933,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 12.27,
+        "examFrequency": 15,
+        "uniqueFamilies": 10.5,
+        "pointWeight": 3.7,
+        "recentThree": 6.67,
+        "officialSolutions": 1.11,
+        "sourceConfidence": 4.67,
+        "exerciseEvidence": null
+      },
+      "weightScore": 78.92,
+      "priorityGroup": "A"
+    },
+    {
+      "topic": "topologie",
+      "label": "Topologie",
+      "examCount": 6,
+      "examIds": [
+        "ss25",
+        "ss21",
+        "ss20",
+        "ss18",
+        "sweers14-2",
+        "geiges03"
+      ],
+      "rawTaskCount": 7,
+      "uniqueTaskFamilyCount": 4,
+      "totalAllocatedPoints": 37.5,
+      "knownPointTaskExposure": 81,
+      "knownPointTaskCount": 6,
+      "averagePointsPerKnownAppearance": 13.5,
+      "mostRecentAppearance": "SS 2025",
+      "mostRecentYear": 2025,
+      "recentExamIds": [
+        "ss25",
+        "ss21"
+      ],
+      "recentThreeCount": 2,
+      "officialSolutionCount": 2,
+      "officialRubricCount": 0,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 0.914,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 15,
+        "examFrequency": 15,
+        "uniqueFamilies": 6.0,
+        "pointWeight": 3.75,
+        "recentThree": 6.67,
+        "officialSolutions": 1.43,
+        "sourceConfidence": 4.57,
+        "exerciseEvidence": null
+      },
+      "weightScore": 77.42,
+      "priorityGroup": "A"
+    },
+    {
+      "topic": "implizite-funktionen",
+      "label": "Implizite Funktionen",
+      "examCount": 6,
+      "examIds": [
+        "ss21",
+        "ss21-nach",
+        "ss20",
+        "geiges15",
+        "sweers10",
+        "geiges03"
+      ],
+      "rawTaskCount": 6,
+      "uniqueTaskFamilyCount": 3,
+      "totalAllocatedPoints": 49.0,
+      "knownPointTaskExposure": 59,
+      "knownPointTaskCount": 4,
+      "averagePointsPerKnownAppearance": 14.75,
+      "mostRecentAppearance": "SS 2021",
+      "mostRecentYear": 2021,
+      "recentExamIds": [
+        "ss21-nach",
+        "ss21"
+      ],
+      "recentThreeCount": 2,
+      "officialSolutionCount": 2,
+      "officialRubricCount": 1,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 0.95,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 12.27,
+        "examFrequency": 15,
+        "uniqueFamilies": 4.5,
+        "pointWeight": 4.9,
+        "recentThree": 6.67,
+        "officialSolutions": 1.67,
+        "sourceConfidence": 4.75,
+        "exerciseEvidence": null
+      },
+      "weightScore": 74.76,
+      "priorityGroup": "A"
+    },
+    {
+      "topic": "richtungsableitungen",
+      "label": "Richtungsableitungen",
+      "examCount": 5,
+      "examIds": [
+        "ss25",
+        "ss21",
+        "sweers14-1",
+        "thorbergsson13",
+        "geiges03"
+      ],
+      "rawTaskCount": 6,
+      "uniqueTaskFamilyCount": 2,
+      "totalAllocatedPoints": 27.0,
+      "knownPointTaskExposure": 54,
+      "knownPointTaskCount": 4,
+      "averagePointsPerKnownAppearance": 13.5,
+      "mostRecentAppearance": "SS 2025",
+      "mostRecentYear": 2025,
+      "recentExamIds": [
+        "ss25",
+        "ss21"
+      ],
+      "recentThreeCount": 2,
+      "officialSolutionCount": 2,
+      "officialRubricCount": 0,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 0.8,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 15,
+        "examFrequency": 12.5,
+        "uniqueFamilies": 3.0,
+        "pointWeight": 2.7,
+        "recentThree": 6.67,
+        "officialSolutions": 1.67,
+        "sourceConfidence": 4.0,
+        "exerciseEvidence": null
+      },
+      "weightScore": 70.53,
+      "priorityGroup": "A"
+    },
+    {
+      "topic": "differentialgleichungen",
+      "label": "Differentialgleichungen",
+      "examCount": 9,
+      "examIds": [
+        "ss25",
+        "ss21",
+        "ss21-nach",
+        "ss20",
+        "geiges15",
+        "sweers14-1",
+        "sweers14-2",
+        "sweers10",
+        "geiges03"
+      ],
+      "rawTaskCount": 9,
+      "uniqueTaskFamilyCount": 3,
+      "totalAllocatedPoints": 100.0,
+      "knownPointTaskExposure": 100,
+      "knownPointTaskCount": 5,
+      "averagePointsPerKnownAppearance": 20.0,
+      "mostRecentAppearance": "SS 2025",
+      "mostRecentYear": 2025,
+      "recentExamIds": [
+        "ss25",
+        "ss21-nach",
+        "ss21"
+      ],
+      "recentThreeCount": 3,
+      "officialSolutionCount": 3,
+      "officialRubricCount": 1,
+      "scriptCoverage": "missing",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "unresolved",
+      "sourceConfidence": 0.967,
+      "scoreComponents": {
+        "currentCourse": 8.75,
+        "recency": 15,
+        "examFrequency": 15,
+        "uniqueFamilies": 4.5,
+        "pointWeight": 10.0,
+        "recentThree": 10.0,
+        "officialSolutions": 1.67,
+        "sourceConfidence": 4.83,
+        "exerciseEvidence": null
+      },
+      "weightScore": 69.75,
+      "priorityGroup": "Ungeklärt"
+    },
+    {
+      "topic": "stetigkeit",
+      "label": "Stetigkeit",
+      "examCount": 6,
+      "examIds": [
+        "ss21-nach",
+        "ss18",
+        "sweers14-1",
+        "sweers14-2",
+        "thorbergsson13",
+        "sweers10"
+      ],
+      "rawTaskCount": 7,
+      "uniqueTaskFamilyCount": 5,
+      "totalAllocatedPoints": 14.67,
+      "knownPointTaskExposure": 34,
+      "knownPointTaskCount": 2,
+      "averagePointsPerKnownAppearance": 17.0,
+      "mostRecentAppearance": "SS 2021",
+      "mostRecentYear": 2021,
+      "recentExamIds": [
+        "ss21-nach"
+      ],
+      "recentThreeCount": 1,
+      "officialSolutionCount": 1,
+      "officialRubricCount": 1,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 0.829,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 12.27,
+        "examFrequency": 15,
+        "uniqueFamilies": 7.5,
+        "pointWeight": 1.47,
+        "recentThree": 3.33,
+        "officialSolutions": 0.71,
+        "sourceConfidence": 4.14,
+        "exerciseEvidence": null
+      },
+      "weightScore": 69.43,
+      "priorityGroup": "A"
+    },
+    {
+      "topic": "lagrange",
+      "label": "Lagrange-Multiplikatoren",
+      "examCount": 8,
+      "examIds": [
+        "ss21-nach",
+        "ss20",
+        "geiges15",
+        "sweers14-1",
+        "sweers14-2",
+        "sweers10",
+        "sweers10-mix",
+        "geiges03"
+      ],
+      "rawTaskCount": 8,
+      "uniqueTaskFamilyCount": 2,
+      "totalAllocatedPoints": 22.33,
+      "knownPointTaskExposure": 45,
+      "knownPointTaskCount": 3,
+      "averagePointsPerKnownAppearance": 15.0,
+      "mostRecentAppearance": "SS 2021",
+      "mostRecentYear": 2021,
+      "recentExamIds": [
+        "ss21-nach"
+      ],
+      "recentThreeCount": 1,
+      "officialSolutionCount": 1,
+      "officialRubricCount": 1,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 0.963,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 12.27,
+        "examFrequency": 15,
+        "uniqueFamilies": 3.0,
+        "pointWeight": 2.23,
+        "recentThree": 3.33,
+        "officialSolutions": 0.62,
+        "sourceConfidence": 4.81,
+        "exerciseEvidence": null
+      },
+      "weightScore": 66.28,
+      "priorityGroup": "A"
+    },
+    {
+      "topic": "gleichmaessige-konvergenz",
+      "label": "Gleichmäßige Konvergenz",
+      "examCount": 4,
+      "examIds": [
+        "ss21-nach",
+        "ss20",
+        "thorbergsson13",
+        "marinescu08"
+      ],
+      "rawTaskCount": 4,
+      "uniqueTaskFamilyCount": 4,
+      "totalAllocatedPoints": 22.0,
+      "knownPointTaskExposure": 37,
+      "knownPointTaskCount": 3,
+      "averagePointsPerKnownAppearance": 12.33,
+      "mostRecentAppearance": "SS 2021",
+      "mostRecentYear": 2021,
+      "recentExamIds": [
+        "ss21-nach"
+      ],
+      "recentThreeCount": 1,
+      "officialSolutionCount": 1,
+      "officialRubricCount": 1,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 0.775,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 12.27,
+        "examFrequency": 10.0,
+        "uniqueFamilies": 6.0,
+        "pointWeight": 2.2,
+        "recentThree": 3.33,
+        "officialSolutions": 1.25,
+        "sourceConfidence": 3.88,
+        "exerciseEvidence": null
+      },
+      "weightScore": 63.93,
+      "priorityGroup": "A"
+    },
+    {
+      "topic": "umkehrsatz",
+      "label": "Umkehrsatz",
+      "examCount": 4,
+      "examIds": [
+        "ss21-nach",
+        "ss18",
+        "sweers14-2",
+        "sweers14-1"
+      ],
+      "rawTaskCount": 5,
+      "uniqueTaskFamilyCount": 2,
+      "totalAllocatedPoints": 30.0,
+      "knownPointTaskExposure": 30,
+      "knownPointTaskCount": 2,
+      "averagePointsPerKnownAppearance": 15.0,
+      "mostRecentAppearance": "SS 2021",
+      "mostRecentYear": 2021,
+      "recentExamIds": [
+        "ss21-nach"
+      ],
+      "recentThreeCount": 1,
+      "officialSolutionCount": 1,
+      "officialRubricCount": 1,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 1.0,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 12.27,
+        "examFrequency": 10.0,
+        "uniqueFamilies": 3.0,
+        "pointWeight": 3.0,
+        "recentThree": 3.33,
+        "officialSolutions": 1.0,
+        "sourceConfidence": 5.0,
+        "exerciseEvidence": null
+      },
+      "weightScore": 62.61,
+      "priorityGroup": "A"
+    },
+    {
+      "topic": "vollstaendigkeit",
+      "label": "Vollständigkeit",
+      "examCount": 3,
+      "examIds": [
+        "ss21-nach",
+        "ss18",
+        "marinescu08"
+      ],
+      "rawTaskCount": 3,
+      "uniqueTaskFamilyCount": 2,
+      "totalAllocatedPoints": 15.67,
+      "knownPointTaskExposure": 40,
+      "knownPointTaskCount": 3,
+      "averagePointsPerKnownAppearance": 13.33,
+      "mostRecentAppearance": "SS 2021",
+      "mostRecentYear": 2021,
+      "recentExamIds": [
+        "ss21-nach"
+      ],
+      "recentThreeCount": 1,
+      "officialSolutionCount": 1,
+      "officialRubricCount": 1,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 0.9,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 12.27,
+        "examFrequency": 7.5,
+        "uniqueFamilies": 3.0,
+        "pointWeight": 1.57,
+        "recentThree": 3.33,
+        "officialSolutions": 1.67,
+        "sourceConfidence": 4.5,
+        "exerciseEvidence": null
+      },
+      "weightScore": 58.84,
+      "priorityGroup": "A"
+    },
+    {
+      "topic": "mannigfaltigkeiten",
+      "label": "Untermannigfaltigkeiten",
+      "examCount": 3,
+      "examIds": [
+        "ss25",
+        "ss21",
+        "ss21-nach"
+      ],
+      "rawTaskCount": 3,
+      "uniqueTaskFamilyCount": 1,
+      "totalAllocatedPoints": 27.5,
+      "knownPointTaskExposure": 55,
+      "knownPointTaskCount": 3,
+      "averagePointsPerKnownAppearance": 18.33,
+      "mostRecentAppearance": "SS 2025",
+      "mostRecentYear": 2025,
+      "recentExamIds": [
+        "ss25",
+        "ss21-nach",
+        "ss21"
+      ],
+      "recentThreeCount": 3,
+      "officialSolutionCount": 3,
+      "officialRubricCount": 1,
+      "scriptCoverage": "missing",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "unresolved",
+      "sourceConfidence": 1.0,
+      "scoreComponents": {
+        "currentCourse": 8.75,
+        "recency": 15,
+        "examFrequency": 7.5,
+        "uniqueFamilies": 1.5,
+        "pointWeight": 2.75,
+        "recentThree": 10.0,
+        "officialSolutions": 5.0,
+        "sourceConfidence": 5.0,
+        "exerciseEvidence": null
+      },
+      "weightScore": 55.5,
+      "priorityGroup": "Ungeklärt"
+    },
+    {
+      "topic": "zusammenhang",
+      "label": "Zusammenhang",
+      "examCount": 3,
+      "examIds": [
+        "ss18",
+        "sweers14-1",
+        "thorbergsson13"
+      ],
+      "rawTaskCount": 3,
+      "uniqueTaskFamilyCount": 3,
+      "totalAllocatedPoints": 5.0,
+      "knownPointTaskExposure": 10,
+      "knownPointTaskCount": 1,
+      "averagePointsPerKnownAppearance": 10.0,
+      "mostRecentAppearance": "SS 2018",
+      "mostRecentYear": 2018,
+      "recentExamIds": [],
+      "recentThreeCount": 0,
+      "officialSolutionCount": 0,
+      "officialRubricCount": 0,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 0.8,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 10.23,
+        "examFrequency": 7.5,
+        "uniqueFamilies": 4.5,
+        "pointWeight": 0.5,
+        "recentThree": 0.0,
+        "officialSolutions": 0.0,
+        "sourceConfidence": 4.0,
+        "exerciseEvidence": null
+      },
+      "weightScore": 51.73,
+      "priorityGroup": "B"
+    },
+    {
+      "topic": "integralrechnung",
+      "label": "Integralrechnung",
+      "examCount": 3,
+      "examIds": [
+        "ss18",
+        "thorbergsson13",
+        "marinescu08"
+      ],
+      "rawTaskCount": 3,
+      "uniqueTaskFamilyCount": 3,
+      "totalAllocatedPoints": 13.0,
+      "knownPointTaskExposure": 18,
+      "knownPointTaskCount": 2,
+      "averagePointsPerKnownAppearance": 9.0,
+      "mostRecentAppearance": "SS 2018",
+      "mostRecentYear": 2018,
+      "recentExamIds": [],
+      "recentThreeCount": 0,
+      "officialSolutionCount": 0,
+      "officialRubricCount": 0,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 0.6,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 10.23,
+        "examFrequency": 7.5,
+        "uniqueFamilies": 4.5,
+        "pointWeight": 1.3,
+        "recentThree": 0.0,
+        "officialSolutions": 0.0,
+        "sourceConfidence": 3.0,
+        "exerciseEvidence": null
+      },
+      "weightScore": 51.53,
+      "priorityGroup": "B"
+    },
+    {
+      "topic": "mehrdimensionale-integrale",
+      "label": "Mehrdimensionale Integrale",
+      "examCount": 3,
+      "examIds": [
+        "ss25",
+        "sweers14-2",
+        "sweers10"
+      ],
+      "rawTaskCount": 3,
+      "uniqueTaskFamilyCount": 1,
+      "totalAllocatedPoints": 20.0,
+      "knownPointTaskExposure": 20,
+      "knownPointTaskCount": 1,
+      "averagePointsPerKnownAppearance": 20.0,
+      "mostRecentAppearance": "SS 2025",
+      "mostRecentYear": 2025,
+      "recentExamIds": [
+        "ss25"
+      ],
+      "recentThreeCount": 1,
+      "officialSolutionCount": 1,
+      "officialRubricCount": 0,
+      "scriptCoverage": "missing",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "unresolved",
+      "sourceConfidence": 1.0,
+      "scoreComponents": {
+        "currentCourse": 8.75,
+        "recency": 15,
+        "examFrequency": 7.5,
+        "uniqueFamilies": 1.5,
+        "pointWeight": 2.0,
+        "recentThree": 3.33,
+        "officialSolutions": 1.67,
+        "sourceConfidence": 5.0,
+        "exerciseEvidence": null
+      },
+      "weightScore": 44.75,
+      "priorityGroup": "Ungeklärt"
+    },
+    {
+      "topic": "reihen",
+      "label": "Reihen und Potenzreihen",
+      "examCount": 2,
+      "examIds": [
+        "sweers10-mix",
+        "marinescu08"
+      ],
+      "rawTaskCount": 2,
+      "uniqueTaskFamilyCount": 2,
+      "totalAllocatedPoints": 5.0,
+      "knownPointTaskExposure": 10,
+      "knownPointTaskCount": 1,
+      "averagePointsPerKnownAppearance": 10.0,
+      "mostRecentAppearance": "SS 2010",
+      "mostRecentYear": 2010,
+      "recentExamIds": [],
+      "recentThreeCount": 0,
+      "officialSolutionCount": 0,
+      "officialRubricCount": 0,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 0.85,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 4.77,
+        "examFrequency": 5.0,
+        "uniqueFamilies": 3.0,
+        "pointWeight": 0.5,
+        "recentThree": 0.0,
+        "officialSolutions": 0.0,
+        "sourceConfidence": 4.25,
+        "exerciseEvidence": null
+      },
+      "weightScore": 42.52,
+      "priorityGroup": "B"
+    },
+    {
+      "topic": "banach-fixpunkt",
+      "label": "Banachscher Fixpunktsatz",
+      "examCount": 1,
+      "examIds": [
+        "geiges15"
+      ],
+      "rawTaskCount": 1,
+      "uniqueTaskFamilyCount": 1,
+      "totalAllocatedPoints": 0,
+      "knownPointTaskExposure": 0,
+      "knownPointTaskCount": 0,
+      "averagePointsPerKnownAppearance": null,
+      "mostRecentAppearance": "SS 2015",
+      "mostRecentYear": 2015,
+      "recentExamIds": [],
+      "recentThreeCount": 0,
+      "officialSolutionCount": 0,
+      "officialRubricCount": 0,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 1.0,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 8.18,
+        "examFrequency": 2.5,
+        "uniqueFamilies": 1.5,
+        "pointWeight": 0.0,
+        "recentThree": 0.0,
+        "officialSolutions": 0.0,
+        "sourceConfidence": 5.0,
+        "exerciseEvidence": null
+      },
+      "weightScore": 42.18,
+      "priorityGroup": "B"
+    },
+    {
+      "topic": "uneigentliche-integrale",
+      "label": "Uneigentliche Integrale",
+      "examCount": 2,
+      "examIds": [
+        "thorbergsson13",
+        "sweers10-mix"
+      ],
+      "rawTaskCount": 2,
+      "uniqueTaskFamilyCount": 1,
+      "totalAllocatedPoints": 0,
+      "knownPointTaskExposure": 0,
+      "knownPointTaskCount": 0,
+      "averagePointsPerKnownAppearance": null,
+      "mostRecentAppearance": "SS 2013",
+      "mostRecentYear": 2013,
+      "recentExamIds": [],
+      "recentThreeCount": 0,
+      "officialSolutionCount": 0,
+      "officialRubricCount": 0,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 0.7,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 6.82,
+        "examFrequency": 5.0,
+        "uniqueFamilies": 1.5,
+        "pointWeight": 0.0,
+        "recentThree": 0.0,
+        "officialSolutions": 0.0,
+        "sourceConfidence": 3.5,
+        "exerciseEvidence": null
+      },
+      "weightScore": 41.82,
+      "priorityGroup": "B"
+    },
+    {
+      "topic": "taylor",
+      "label": "Taylorentwicklung",
+      "examCount": 2,
+      "examIds": [
+        "sweers10",
+        "sweers10-mix"
+      ],
+      "rawTaskCount": 2,
+      "uniqueTaskFamilyCount": 1,
+      "totalAllocatedPoints": 0,
+      "knownPointTaskExposure": 0,
+      "knownPointTaskCount": 0,
+      "averagePointsPerKnownAppearance": null,
+      "mostRecentAppearance": "SS 2010",
+      "mostRecentYear": 2010,
+      "recentExamIds": [],
+      "recentThreeCount": 0,
+      "officialSolutionCount": 0,
+      "officialRubricCount": 0,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 1.0,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 4.77,
+        "examFrequency": 5.0,
+        "uniqueFamilies": 1.5,
+        "pointWeight": 0.0,
+        "recentThree": 0.0,
+        "officialSolutions": 0.0,
+        "sourceConfidence": 5.0,
+        "exerciseEvidence": null
+      },
+      "weightScore": 41.27,
+      "priorityGroup": "B"
+    },
+    {
+      "topic": "folgen",
+      "label": "Folgen",
+      "examCount": 1,
+      "examIds": [
+        "sweers10-mix"
+      ],
+      "rawTaskCount": 1,
+      "uniqueTaskFamilyCount": 1,
+      "totalAllocatedPoints": 0,
+      "knownPointTaskExposure": 0,
+      "knownPointTaskCount": 0,
+      "averagePointsPerKnownAppearance": null,
+      "mostRecentAppearance": "SS 2010",
+      "mostRecentYear": 2010,
+      "recentExamIds": [],
+      "recentThreeCount": 0,
+      "officialSolutionCount": 0,
+      "officialRubricCount": 0,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 1.0,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 4.77,
+        "examFrequency": 2.5,
+        "uniqueFamilies": 1.5,
+        "pointWeight": 0.0,
+        "recentThree": 0.0,
+        "officialSolutions": 0.0,
+        "sourceConfidence": 5.0,
+        "exerciseEvidence": null
+      },
+      "weightScore": 38.77,
+      "priorityGroup": "B"
+    },
+    {
+      "topic": "komplexe-zahlen",
+      "label": "Komplexe Zahlen",
+      "examCount": 1,
+      "examIds": [
+        "sweers10-mix"
+      ],
+      "rawTaskCount": 1,
+      "uniqueTaskFamilyCount": 1,
+      "totalAllocatedPoints": 0,
+      "knownPointTaskExposure": 0,
+      "knownPointTaskCount": 0,
+      "averagePointsPerKnownAppearance": null,
+      "mostRecentAppearance": "SS 2010",
+      "mostRecentYear": 2010,
+      "recentExamIds": [],
+      "recentThreeCount": 0,
+      "officialSolutionCount": 0,
+      "officialRubricCount": 0,
+      "scriptCoverage": "covered",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "confirmed_current",
+      "sourceConfidence": 1.0,
+      "scoreComponents": {
+        "currentCourse": 25.0,
+        "recency": 4.77,
+        "examFrequency": 2.5,
+        "uniqueFamilies": 1.5,
+        "pointWeight": 0.0,
+        "recentThree": 0.0,
+        "officialSolutions": 0.0,
+        "sourceConfidence": 5.0,
+        "exerciseEvidence": null
+      },
+      "weightScore": 38.77,
+      "priorityGroup": "B"
+    },
+    {
+      "topic": "kurven",
+      "label": "Kurven und Bogenlänge",
+      "examCount": 6,
+      "examIds": [
+        "ss18",
+        "geiges15",
+        "sweers14-1",
+        "sweers14-2",
+        "sweers10",
+        "geiges03"
+      ],
+      "rawTaskCount": 6,
+      "uniqueTaskFamilyCount": 1,
+      "totalAllocatedPoints": 13.67,
+      "knownPointTaskExposure": 23,
+      "knownPointTaskCount": 2,
+      "averagePointsPerKnownAppearance": 11.5,
+      "mostRecentAppearance": "SS 2018",
+      "mostRecentYear": 2018,
+      "recentExamIds": [],
+      "recentThreeCount": 0,
+      "officialSolutionCount": 0,
+      "officialRubricCount": 0,
+      "scriptCoverage": "missing",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "likely_outdated",
+      "sourceConfidence": 0.95,
+      "scoreComponents": {
+        "currentCourse": 2.5,
+        "recency": 10.23,
+        "examFrequency": 15,
+        "uniqueFamilies": 1.5,
+        "pointWeight": 1.37,
+        "recentThree": 0.0,
+        "officialSolutions": 0.0,
+        "sourceConfidence": 4.75,
+        "exerciseEvidence": null
+      },
+      "weightScore": 35.34,
+      "priorityGroup": "C"
+    },
+    {
+      "topic": "analysis-1",
+      "label": "Analysis-I-Wiederholung",
+      "examCount": 2,
+      "examIds": [
+        "geiges15",
+        "sweers10-mix"
+      ],
+      "rawTaskCount": 2,
+      "uniqueTaskFamilyCount": 2,
+      "totalAllocatedPoints": 0,
+      "knownPointTaskExposure": 0,
+      "knownPointTaskCount": 0,
+      "averagePointsPerKnownAppearance": null,
+      "mostRecentAppearance": "SS 2015",
+      "mostRecentYear": 2015,
+      "recentExamIds": [],
+      "recentThreeCount": 0,
+      "officialSolutionCount": 0,
+      "officialRubricCount": 0,
+      "scriptCoverage": "covered_supporting",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "likely_outdated",
+      "sourceConfidence": 1.0,
+      "scoreComponents": {
+        "currentCourse": 2.5,
+        "recency": 8.18,
+        "examFrequency": 5.0,
+        "uniqueFamilies": 3.0,
+        "pointWeight": 0.0,
+        "recentThree": 0.0,
+        "officialSolutions": 0.0,
+        "sourceConfidence": 5.0,
+        "exerciseEvidence": null
+      },
+      "weightScore": 23.68,
+      "priorityGroup": "C"
+    },
+    {
+      "topic": "unsicher",
+      "label": "Unvollständig überlieferte Aufgabe",
+      "examCount": 1,
+      "examIds": [
+        "thorbergsson13"
+      ],
+      "rawTaskCount": 1,
+      "uniqueTaskFamilyCount": 1,
+      "totalAllocatedPoints": 0,
+      "knownPointTaskExposure": 0,
+      "knownPointTaskCount": 0,
+      "averagePointsPerKnownAppearance": null,
+      "mostRecentAppearance": "SS 2013",
+      "mostRecentYear": 2013,
+      "recentExamIds": [],
+      "recentThreeCount": 0,
+      "officialSolutionCount": 0,
+      "officialRubricCount": 0,
+      "scriptCoverage": "unresolved",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "unresolved",
+      "sourceConfidence": 0.4,
+      "scoreComponents": {
+        "currentCourse": 8.75,
+        "recency": 6.82,
+        "examFrequency": 2.5,
+        "uniqueFamilies": 1.5,
+        "pointWeight": 0.0,
+        "recentThree": 0.0,
+        "officialSolutions": 0.0,
+        "sourceConfidence": 2.0,
+        "exerciseEvidence": null
+      },
+      "weightScore": 21.57,
+      "priorityGroup": "Ungeklärt"
+    },
+    {
+      "topic": "dynamische-systeme",
+      "label": "Dynamische Systeme",
+      "examCount": 2,
+      "examIds": [
+        "sweers10",
+        "sweers10-mix"
+      ],
+      "rawTaskCount": 2,
+      "uniqueTaskFamilyCount": 1,
+      "totalAllocatedPoints": 0,
+      "knownPointTaskExposure": 0,
+      "knownPointTaskCount": 0,
+      "averagePointsPerKnownAppearance": null,
+      "mostRecentAppearance": "SS 2010",
+      "mostRecentYear": 2010,
+      "recentExamIds": [],
+      "recentThreeCount": 0,
+      "officialSolutionCount": 0,
+      "officialRubricCount": 0,
+      "scriptCoverage": "missing",
+      "currentExerciseCoverage": "not_provided",
+      "currentScopeStatus": "likely_outdated",
+      "sourceConfidence": 1.0,
+      "scoreComponents": {
+        "currentCourse": 2.5,
+        "recency": 4.77,
+        "examFrequency": 5.0,
+        "uniqueFamilies": 1.5,
+        "pointWeight": 0.0,
+        "recentThree": 0.0,
+        "officialSolutions": 0.0,
+        "sourceConfidence": 5.0,
+        "exerciseEvidence": null
+      },
+      "weightScore": 18.77,
+      "priorityGroup": "C"
+    }
+  ],
+  "evidenceSources": {
+    "examEvidence": {
+      "status": "provided",
+      "examCount": 13,
+      "taskCount": 96
+    },
+    "scriptEvidence": {
+      "status": "provided",
+      "canonical": true
+    },
+    "exerciseEvidence": {
+      "status": "not_provided",
+      "files": [],
+      "weightWhenProvided": 30
+    },
+    "currentCourseEvidence": {
+      "status": "partial",
+      "basis": "uploaded script and latest supplied exam; no official 2026 scope list"
+    }
+  },
+  "allowedSolutionStatuses": [
+    "official_solution",
+    "official_rubric",
+    "partial_official_solution",
+    "reconstructed_solution",
+    "ai_generated_solution",
+    "no_solution"
+  ],
+  "allowedCurrentScopeStatuses": [
+    "confirmed_current",
+    "historically_examined",
+    "likely_current",
+    "likely_outdated",
+    "unresolved"
+  ],
+  "studyMix": {
+    "dueReview": 20,
+    "weakHighValue": 50,
+    "mixedExam": 30
+  }
+};
